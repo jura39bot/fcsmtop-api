@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>fcsmtop — Stats National</title>
+  <link rel="stylesheet" href="/static/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <h1>⚽ fcsmtop <span class="subtitle">Championnat National 2024-2025</span></h1>
+      <nav>
+        <a href="/" class="active">National</a>
+        <a href="/fcsm">🟡 FCSM</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>📊 Classement</h2>
+      <div id="loading-classement" class="loading">Chargement...</div>
+      <table id="table-classement" class="hidden">
+        <thead>
+          <tr><th>#</th><th>Équipe</th><th>J</th><th>G</th><th>N</th><th>P</th><th>BP</th><th>BC</th><th>+/-</th><th>Pts</th></tr>
+        </thead>
+        <tbody id="tbody-classement"></tbody>
+      </table>
+    </section>
+
+    <section class="card">
+      <h2>⚽ Top buteurs National</h2>
+      <div style="max-width:700px; margin:auto;">
+        <canvas id="chart-buteurs"></canvas>
+      </div>
+      <div id="loading-buteurs" class="loading">Chargement...</div>
+      <table id="table-buteurs" class="hidden">
+        <thead>
+          <tr><th>#</th><th>Joueur</th><th>Club</th><th>Buts</th><th>P.D.</th></tr>
+        </thead>
+        <tbody id="tbody-buteurs"></tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>fcsmtop-api — <a href="/docs" target="_blank">API Docs</a> — <a href="https://github.com/jura39bot/fcsmtop-api" target="_blank">GitHub</a></p>
+  </footer>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

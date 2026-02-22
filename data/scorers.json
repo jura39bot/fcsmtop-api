@@ -1,0 +1,10 @@
+[
+  {"rank": 1, "player": "Dylan Bronn", "team": "FCSM", "goals": 14, "assists": 3, "penalties": 0},
+  {"rank": 2, "player": "Ibrahim Koné", "team": "FCSM", "goals": 8, "assists": 2, "penalties": 0},
+  {"rank": 3, "player": "Eliakim Mangala", "team": "FCSM", "goals": 7, "assists": 1, "penalties": 0},
+  {"rank": 4, "player": "Jordan Lefort", "team": "FCSM", "goals": 6, "assists": 4, "penalties": 0},
+  {"rank": 5, "player": "Samir Hadji", "team": "FCSM", "goals": 4, "assists": 12, "penalties": 4},
+  {"rank": 6, "player": "Nathan Géry", "team": "Orléans", "goals": 11, "assists": 2, "penalties": 1},
+  {"rank": 7, "player": "Kevin Tapoko", "team": "Red Star", "goals": 9, "assists": 1, "penalties": 0},
+  {"rank": 8, "player": "Luca Ferrari", "team": "Rouen", "goals": 8, "assists": 3, "penalties": 2}
+]

@@ -1,0 +1,17 @@
+[
+  {"first_name": "Maxime", "last_name": "Pichon", "position": "GK", "nationality": "Français", "number": 1, "team": "FCSM"},
+  {"first_name": "Théo", "last_name": "Hamelin", "position": "DEF", "nationality": "Français", "number": 2, "team": "FCSM"},
+  {"first_name": "Kévin", "last_name": "Fortuné", "position": "DEF", "nationality": "Français", "number": 5, "team": "FCSM"},
+  {"first_name": "Julien", "last_name": "Voisin", "position": "DEF", "nationality": "Français", "number": 3, "team": "FCSM"},
+  {"first_name": "Moussa", "last_name": "Sidibé", "position": "DEF", "nationality": "Malien", "number": 4, "team": "FCSM"},
+  {"first_name": "Florian", "last_name": "Tardieu", "position": "MID", "nationality": "Français", "number": 6, "team": "FCSM"},
+  {"first_name": "Nicolas", "last_name": "Laurent", "position": "MID", "nationality": "Français", "number": 8, "team": "FCSM"},
+  {"first_name": "Samir", "last_name": "Hadji", "position": "MID", "nationality": "Marocain", "number": 10, "team": "FCSM"},
+  {"first_name": "Mathis", "last_name": "Brun", "position": "MID", "nationality": "Français", "number": 7, "team": "FCSM"},
+  {"first_name": "Yacine", "last_name": "Fofana", "position": "MID", "nationality": "Français", "number": 14, "team": "FCSM"},
+  {"first_name": "Alexis", "last_name": "Bernard", "position": "MID", "nationality": "Français", "number": 11, "team": "FCSM"},
+  {"first_name": "Dylan", "last_name": "Bronn", "position": "ATT", "nationality": "Tunisien", "number": 9, "team": "FCSM"},
+  {"first_name": "Eliakim", "last_name": "Mangala", "position": "ATT", "nationality": "Français", "number": 19, "team": "FCSM"},
+  {"first_name": "Jordan", "last_name": "Lefort", "position": "ATT", "nationality": "Français", "number": 17, "team": "FCSM"},
+  {"first_name": "Ibrahim", "last_name": "Koné", "position": "ATT", "nationality": "Ivoirien", "number": 18, "team": "FCSM"}
+]

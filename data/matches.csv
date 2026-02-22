@@ -1,0 +1,21 @@
+matchday,date,home_team,away_team,home_score,away_score,season
+1,2024-08-10,FCSM,Orléans,2,0,2025
+2,2024-08-17,Red Star,FCSM,1,1,2025
+3,2024-08-24,FCSM,Rouen,3,1,2025
+4,2024-08-31,Avranches,FCSM,0,2,2025
+5,2024-09-07,FCSM,Villefranche,1,0,2025
+6,2024-09-14,Marignane,FCSM,2,2,2025
+7,2024-09-21,FCSM,Concarneau,4,0,2025
+8,2024-09-28,Châteauroux,FCSM,0,1,2025
+9,2024-10-05,FCSM,Béziers,2,1,2025
+10,2024-10-12,Versailles,FCSM,1,3,2025
+11,2024-10-19,FCSM,Grenoble,1,1,2025
+12,2024-10-26,Dijon,FCSM,0,2,2025
+13,2024-11-02,FCSM,Évreux,3,0,2025
+14,2024-11-09,Annecy,FCSM,1,2,2025
+15,2024-11-16,FCSM,Bergerac,2,0,2025
+16,2024-11-23,Orléans,FCSM,0,1,2025
+17,2024-11-30,FCSM,Red Star,2,0,2025
+18,2024-12-07,Rouen,FCSM,1,1,2025
+19,2024-12-14,FCSM,Avranches,1,0,2025
+20,2024-12-21,Villefranche,FCSM,2,3,2025

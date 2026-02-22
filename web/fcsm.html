@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>fcsmtop — FC Sochaux-Montbéliard</title>
+  <link rel="stylesheet" href="/static/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <h1>🟡 FCSM <span class="subtitle">FC Sochaux-Montbéliard 2024-2025</span></h1>
+      <nav>
+        <a href="/">National</a>
+        <a href="/fcsm" class="active">🟡 FCSM</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="card form-card">
+      <h2>📈 Forme récente (5 derniers matchs)</h2>
+      <div id="form-display" class="form-balls"></div>
+      <div id="form-stats" class="form-stats"></div>
+    </section>
+
+    <div class="two-cols">
+      <section class="card">
+        <h2>⚽ Buteurs FCSM</h2>
+        <canvas id="chart-fcsm-buteurs"></canvas>
+        <table id="table-fcsm-buteurs">
+          <thead>
+            <tr><th>#</th><th>Joueur</th><th>Buts</th><th>Pen.</th></tr>
+          </thead>
+          <tbody id="tbody-fcsm-buteurs"></tbody>
+        </table>
+      </section>
+
+      <section class="card">
+        <h2>🎯 Passeurs FCSM</h2>
+        <table id="table-fcsm-passeurs">
+          <thead>
+            <tr><th>#</th><th>Joueur</th><th>Passes D.</th></tr>
+          </thead>
+          <tbody id="tbody-fcsm-passeurs"></tbody>
+        </table>
+      </section>
+    </div>
+
+    <section class="card">
+      <h2>📅 Derniers matchs (10 journées)</h2>
+      <table id="table-fcsm-matches">
+        <thead>
+          <tr><th>J.</th><th>Date</th><th>Domicile</th><th>Score</th><th>Extérieur</th><th>Résultat</th></tr>
+        </thead>
+        <tbody id="tbody-fcsm-matches"></tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>fcsmtop-api — <a href="/docs" target="_blank">API Docs</a> — <a href="https://github.com/jura39bot/fcsmtop-api" target="_blank">GitHub</a></p>
+  </footer>
+
+  <script>
+    const PAGE = 'fcsm';
+  </script>
+  <script src="/static/app.js"></script>
+</body>
+</html>
