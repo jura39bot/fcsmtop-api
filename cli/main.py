@@ -138,12 +138,17 @@ def matches(
 
     icons = {"W": "[green]✅ V[/green]", "D": "[yellow]🟡 N[/yellow]", "L": "[red]❌ D[/red]"}
     for m in data:
+        # Tronque les noms longs pour l'affichage
+        home = m["home_team"].replace("FC Sochaux-Montbéliard", "FCSM")
+        away = m["away_team"].replace("FC Sochaux-Montbéliard", "FCSM")
+        home = home.replace("Villefranche Beaujolais", "Villefranche").replace("Bergerac Périgord FC", "Bergerac")
+        away = away.replace("Villefranche Beaujolais", "Villefranche").replace("Bergerac Périgord FC", "Bergerac")
         t.add_row(
             str(m["matchday"]),
             m["match_date"][:10],
-            m["home_team"],
+            home,
             f"{m.get('home_score','?')} - {m.get('away_score','?')}",
-            m["away_team"],
+            away,
             icons.get(m.get("result", ""), "—"),
         )
 
