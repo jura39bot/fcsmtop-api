@@ -21,3 +21,5 @@ ENV/
 .vscode/
 *.log
 docker-data/
+fcsmtop.db
+.venv/

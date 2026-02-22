@@ -23,27 +23,43 @@ API REST (FastAPI) + CLI (Typer/Rich) + Dashboard web (Chart.js).
 
 ## Quick Start
 
-### Option 1 — Docker Compose (recommandé)
+### ⚡ Option 1 — CLI standalone (le plus simple, après `git clone`)
 
 ```bash
-cp .env.example .env
-docker compose up -d
-# Charger les données initiales
-docker compose exec api python scripts/seed_data.py
+git clone https://github.com/jura39bot/fcsmtop-api.git
+cd fcsmtop-api
+
+# Setup complet en une commande (venv + deps + données)
+make dev
+
+# Ou manuellement :
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+python3 scripts/seed_data.py   # initialise SQLite + données
+
+# CLI prêt !
+python3 cli/main.py buteurs --club FCSM
+python3 cli/main.py classement
+python3 cli/main.py form --club FCSM --last 5
 ```
 
-Ouvrir [http://localhost:8000](http://localhost:8000) pour le dashboard.
-Docs API auto : [http://localhost:8000/docs](http://localhost:8000/docs)
+> ℹ️ La base SQLite (`fcsmtop.db`) est créée automatiquement. Aucun serveur nécessaire pour le CLI.
 
-### Option 2 — Dev local (SQLite)
+### Option 2 — API + Web (SQLite)
 
 ```bash
-python -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
-
-# Base SQLite par défaut
-python scripts/seed_data.py
+source .venv/bin/activate
 uvicorn api.main:app --reload
+# → http://localhost:8000      (dashboard)
+# → http://localhost:8000/docs (API Swagger)
+```
+
+### Option 3 — Docker Compose (PostgreSQL)
+
+```bash
+cp .env.example .env   # adapter les mots de passe
+docker compose up -d
+docker compose exec api python3 scripts/seed_data.py
 ```
 
 ---
