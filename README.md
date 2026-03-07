@@ -189,4 +189,59 @@ uvicorn api.main:app --reload
 
 ---
 
+---
+
+## 📊 Saison en cours — National 2025-2026
+
+> Mise à jour après la **24e journée** (6 mars 2026)
+
+### 🏆 Classement
+
+| Pos | Club | Pts | J | V | N | D |
+|-----|------|-----|---|---|---|---|
+| 1 | Dijon | 43 | 24 | 13 | 4 | 7 |
+| 2 | **FCSM** | **42** | **23** | **12** | **6** | **4** |
+| 3 | Rouen | 42 | 24 | 12 | 6 | 6 |
+| 4 | Versailles | ~36 | 24 | — | — | — |
+| … | … | … | … | … | … | … |
+
+> ⚠️ Dijon 1er aux points — Rouen et FCSM à égalité (départage : confrontations directes).  
+> FCSM exempt J24 (Ajaccio exclu de la compétition).  
+> Sources : footamateur.ouest-france.fr · L'Équipe · BeSoccer
+
+---
+
+### ⚽ Meilleurs buteurs FCSM
+
+| Rang | Joueur | Buts | Matchs |
+|------|--------|------|--------|
+| 1 | Benjamin Gomel | 8 | 21 |
+| 2 | Kapitbafan Djoco | 6 | 21 |
+| 2 | Aymen Boutoutaou | 6 | 21 |
+| 4 | Solomon Loubao | 2 | 15 |
+| 4 | Boubacar Fofana | 2 | 13 |
+| 4 | Elson Mendes | 2 | 19 |
+
+### 🎯 Meilleurs passeurs FCSM
+
+| Rang | Joueur | Passes déc. | Matchs |
+|------|--------|-------------|--------|
+| 1 | Dylan Tavares dos Santos | 4 | 16 |
+| 2 | Benjaloud Youssouf | 2 | 14 |
+| 2 | Élie N'Gatta | 2 | 14 |
+
+> Stats après ~J21 — sources : AiScore · Footmercato · L'Est Républicain
+
+---
+
+### 📅 Prochains matchs FCSM
+
+| Journée | Date | Domicile | Extérieur |
+|---------|------|----------|-----------|
+| J25 | 13/03/2026 | FCSM | Concarneau |
+| J26 | 20/03/2026 | Aubagne | FCSM |
+| J27 | 27/03/2026 | FCSM | QRM |
+
+---
+
 *Fait avec ❤️ et ⚽ — Allez Sochaux !*
