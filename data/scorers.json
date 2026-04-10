@@ -1,39 +1,39 @@
 [
   {
     "rank": 1,
-    "player": "Benjamin Gomel",
-    "team": "FCSM",
-    "position": "ATT",
-    "matches": 21,
-    "goals": 8,
-    "assists": 1,
-    "penalties": 0,
-    "xg": null,
-    "source": "AiScore / EstRépublicain — après J21"
-  },
-  {
-    "rank": 2,
     "player": "Kapitbafan Djoco",
     "team": "FCSM",
     "position": "ATT",
-    "matches": 21,
-    "goals": 6,
+    "matches": 22,
+    "goals": 10,
     "assists": 1,
     "penalties": 0,
     "xg": null,
-    "source": "AiScore — après J21"
+    "source": "Foot-Direct / MadeInFOOT — après J29"
   },
   {
     "rank": 2,
     "player": "Aymen Boutoutaou",
     "team": "FCSM",
     "position": "ATT",
-    "matches": 21,
+    "matches": 22,
     "goals": 6,
     "assists": 0,
     "penalties": 0,
     "xg": null,
-    "source": "AiScore — après J21"
+    "source": "MadeInFOOT — après J26"
+  },
+  {
+    "rank": 3,
+    "player": "Benjamin Gomel",
+    "team": "FCSM",
+    "position": "ATT",
+    "matches": 21,
+    "goals": 5,
+    "assists": 1,
+    "penalties": 0,
+    "xg": null,
+    "source": "MadeInFOOT — après J26"
   },
   {
     "rank": 4,
@@ -76,39 +76,39 @@
     "player": "Jonathan Mexique",
     "team": "FCSM",
     "position": "MID",
-    "matches": 21,
+    "matches": 22,
     "goals": 1,
-    "assists": 0,
+    "assists": 2,
     "penalties": 0,
     "xg": null,
-    "source": "AiScore — après J21"
+    "source": "MadeInFOOT — après J26"
   },
   {
     "rank": 8,
     "player": "Dylan Tavares dos Santos",
     "team": "FCSM",
     "position": "MID",
-    "matches": 16,
+    "matches": 20,
     "goals": 0,
-    "assists": 4,
+    "assists": 5,
     "penalties": 0,
     "xg": null,
-    "source": "Footmercato / AiScore — meilleur passeur"
+    "source": "MadeInFOOT — meilleur passeur après J26"
   },
   {
     "rank": 9,
     "player": "Benjaloud Youssouf",
     "team": "FCSM",
     "position": "MID",
-    "matches": 14,
+    "matches": 16,
     "goals": 0,
-    "assists": 2,
+    "assists": 3,
     "penalties": 0,
     "xg": null,
-    "source": "Footmercato / AiScore"
+    "source": "MadeInFOOT — après J26"
   },
   {
-    "rank": 9,
+    "rank": 10,
     "player": "Élie N'Gatta",
     "team": "FCSM",
     "position": "MID",

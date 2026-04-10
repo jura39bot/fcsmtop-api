@@ -22,4 +22,9 @@ matchday,date,home_team,away_team,home_score,away_score,season
 21,2026-02-13,FCSM,Paris 13 Atletico,1,1,2025
 22,2026-02-20,Caen,FCSM,1,3,2025
 23,2026-02-27,FCSM,Villefranche,2,1,2025
-24,2026-03-06,Ajaccio,FCSM,,,2025
+24,2026-03-06,Exempt,FCSM,,,2025
+25,2026-03-13,FCSM,Concarneau,2,0,2025
+26,2026-03-20,Aubagne,FCSM,1,4,2025
+27,2026-03-27,FCSM,QRM,2,0,2025
+28,2026-04-03,Versailles,FCSM,1,0,2025
+29,2026-04-10,FCSM,Fleury,2,2,2025
