@@ -4,119 +4,119 @@
     "player": "Kapitbafan Djoco",
     "team": "FCSM",
     "position": "ATT",
-    "matches": 22,
-    "goals": 10,
-    "assists": 1,
+    "matches": 30,
+    "goals": 14,
+    "assists": 2,
     "penalties": 0,
     "xg": null,
-    "source": "Foot-Direct / MadeInFOOT — après J29"
+    "source": "Foot-Direct / MadeInFOOT — après J34"
   },
   {
     "rank": 2,
     "player": "Aymen Boutoutaou",
     "team": "FCSM",
     "position": "ATT",
-    "matches": 22,
-    "goals": 6,
-    "assists": 0,
+    "matches": 28,
+    "goals": 8,
+    "assists": 1,
     "penalties": 0,
     "xg": null,
-    "source": "MadeInFOOT — après J26"
+    "source": "MadeInFOOT — après J34"
   },
   {
     "rank": 3,
     "player": "Benjamin Gomel",
     "team": "FCSM",
     "position": "ATT",
-    "matches": 21,
-    "goals": 5,
-    "assists": 1,
+    "matches": 27,
+    "goals": 6,
+    "assists": 2,
     "penalties": 0,
     "xg": null,
-    "source": "MadeInFOOT — après J26"
+    "source": "MadeInFOOT — après J34"
   },
   {
     "rank": 4,
     "player": "Elson Mendes",
     "team": "FCSM",
     "position": "MID",
-    "matches": 19,
-    "goals": 2,
-    "assists": 0,
+    "matches": 25,
+    "goals": 3,
+    "assists": 1,
     "penalties": 0,
     "xg": null,
-    "source": "AiScore — après J21"
+    "source": "AiScore — après J34"
   },
   {
-    "rank": 4,
+    "rank": 5,
     "player": "Boubacar Fofana",
     "team": "FCSM",
     "position": "ATT",
-    "matches": 13,
-    "goals": 2,
+    "matches": 20,
+    "goals": 3,
     "assists": 0,
     "penalties": 2,
     "xg": null,
-    "source": "AiScore — après J21"
+    "source": "AiScore — après J34"
   },
   {
-    "rank": 4,
+    "rank": 6,
     "player": "Solomon Loubao",
     "team": "FCSM",
     "position": "ATT",
-    "matches": 15,
+    "matches": 22,
     "goals": 2,
-    "assists": 0,
+    "assists": 1,
     "penalties": 0,
     "xg": null,
-    "source": "AiScore — après J21"
+    "source": "AiScore — après J34"
   },
   {
     "rank": 7,
     "player": "Jonathan Mexique",
     "team": "FCSM",
     "position": "MID",
-    "matches": 22,
-    "goals": 1,
-    "assists": 2,
+    "matches": 28,
+    "goals": 2,
+    "assists": 3,
     "penalties": 0,
     "xg": null,
-    "source": "MadeInFOOT — après J26"
+    "source": "MadeInFOOT — après J34"
   },
   {
     "rank": 8,
     "player": "Dylan Tavares dos Santos",
     "team": "FCSM",
     "position": "MID",
-    "matches": 20,
+    "matches": 26,
     "goals": 0,
-    "assists": 5,
+    "assists": 7,
     "penalties": 0,
     "xg": null,
-    "source": "MadeInFOOT — meilleur passeur après J26"
+    "source": "MadeInFOOT — meilleur passeur après J34"
   },
   {
     "rank": 9,
     "player": "Benjaloud Youssouf",
     "team": "FCSM",
     "position": "MID",
-    "matches": 16,
-    "goals": 0,
-    "assists": 3,
+    "matches": 22,
+    "goals": 1,
+    "assists": 4,
     "penalties": 0,
     "xg": null,
-    "source": "MadeInFOOT — après J26"
+    "source": "MadeInFOOT — après J34"
   },
   {
     "rank": 10,
     "player": "Élie N'Gatta",
     "team": "FCSM",
     "position": "MID",
-    "matches": 14,
-    "goals": 0,
-    "assists": 2,
+    "matches": 18,
+    "goals": 1,
+    "assists": 3,
     "penalties": 0,
     "xg": null,
-    "source": "Footmercato"
+    "source": "Footmercato — après J34"
   }
 ]
