@@ -4,24 +4,24 @@
     "player": "Kapitbafan Djoco",
     "team": "FCSM",
     "position": "ATT",
-    "matches": 30,
-    "goals": 14,
+    "matches": 29,
+    "goals": 10,
     "assists": 2,
     "penalties": 0,
     "xg": null,
-    "source": "Foot-Direct / MadeInFOOT — après J34"
+    "source": "MadeInFOOT — après J35"
   },
   {
     "rank": 2,
     "player": "Aymen Boutoutaou",
     "team": "FCSM",
     "position": "ATT",
-    "matches": 28,
-    "goals": 8,
-    "assists": 1,
+    "matches": 29,
+    "goals": 7,
+    "assists": 4,
     "penalties": 0,
     "xg": null,
-    "source": "MadeInFOOT — après J34"
+    "source": "MadeInFOOT — après J35"
   },
   {
     "rank": 3,
@@ -33,7 +33,7 @@
     "assists": 2,
     "penalties": 0,
     "xg": null,
-    "source": "MadeInFOOT — après J34"
+    "source": "MadeInFOOT — après J35"
   },
   {
     "rank": 4,
@@ -45,7 +45,7 @@
     "assists": 1,
     "penalties": 0,
     "xg": null,
-    "source": "AiScore — après J34"
+    "source": "AiScore — après J35"
   },
   {
     "rank": 5,
@@ -57,7 +57,7 @@
     "assists": 0,
     "penalties": 2,
     "xg": null,
-    "source": "AiScore — après J34"
+    "source": "AiScore — après J35"
   },
   {
     "rank": 6,
@@ -69,7 +69,7 @@
     "assists": 1,
     "penalties": 0,
     "xg": null,
-    "source": "AiScore — après J34"
+    "source": "AiScore — après J35"
   },
   {
     "rank": 7,
@@ -81,31 +81,31 @@
     "assists": 3,
     "penalties": 0,
     "xg": null,
-    "source": "MadeInFOOT — après J34"
+    "source": "MadeInFOOT — après J35"
   },
   {
     "rank": 8,
     "player": "Dylan Tavares dos Santos",
     "team": "FCSM",
     "position": "MID",
-    "matches": 26,
+    "matches": 25,
     "goals": 0,
-    "assists": 7,
+    "assists": 5,
     "penalties": 0,
     "xg": null,
-    "source": "MadeInFOOT — meilleur passeur après J34"
+    "source": "MadeInFOOT — meilleur passeur après J35"
   },
   {
     "rank": 9,
     "player": "Benjaloud Youssouf",
     "team": "FCSM",
     "position": "MID",
-    "matches": 22,
+    "matches": 20,
     "goals": 1,
-    "assists": 4,
+    "assists": 3,
     "penalties": 0,
     "xg": null,
-    "source": "MadeInFOOT — après J34"
+    "source": "MadeInFOOT — après J35"
   },
   {
     "rank": 10,
@@ -117,6 +117,6 @@
     "assists": 3,
     "penalties": 0,
     "xg": null,
-    "source": "Footmercato — après J34"
+    "source": "Footmercato — après J35"
   }
 ]
