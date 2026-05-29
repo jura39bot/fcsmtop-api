@@ -1,122 +1,122 @@
 [
   {
     "rank": 1,
-    "player": "Kapitbafan Djoco",
-    "team": "FCSM",
-    "position": "ATT",
-    "matches": 29,
-    "goals": 10,
-    "assists": 2,
-    "penalties": 0,
-    "xg": null,
-    "source": "MadeInFOOT — après J35"
-  },
-  {
-    "rank": 2,
-    "player": "Aymen Boutoutaou",
-    "team": "FCSM",
-    "position": "ATT",
-    "matches": 29,
-    "goals": 7,
-    "assists": 4,
-    "penalties": 0,
-    "xg": null,
-    "source": "MadeInFOOT — après J35"
-  },
-  {
-    "rank": 3,
     "player": "Benjamin Gomel",
     "team": "FCSM",
     "position": "ATT",
-    "matches": 27,
-    "goals": 6,
-    "assists": 2,
+    "matches": 32,
+    "goals": 12,
+    "assists": 4,
     "penalties": 0,
     "xg": null,
-    "source": "MadeInFOOT — après J35"
+    "source": "Footmercato — fin de saison National 2025-2026"
+  },
+  {
+    "rank": 2,
+    "player": "Kapitbafan Djoco",
+    "team": "FCSM",
+    "position": "ATT",
+    "matches": 30,
+    "goals": 11,
+    "assists": 2,
+    "penalties": 2,
+    "xg": null,
+    "source": "Footmercato — fin de saison National 2025-2026"
+  },
+  {
+    "rank": 3,
+    "player": "Aymen Boutoutaou",
+    "team": "FCSM",
+    "position": "ATT",
+    "matches": 32,
+    "goals": 9,
+    "assists": 4,
+    "penalties": 0,
+    "xg": null,
+    "source": "Footmercato — fin de saison National 2025-2026"
   },
   {
     "rank": 4,
     "player": "Elson Mendes",
     "team": "FCSM",
     "position": "MID",
-    "matches": 25,
-    "goals": 3,
-    "assists": 1,
+    "matches": 28,
+    "goals": 4,
+    "assists": 2,
     "penalties": 0,
     "xg": null,
-    "source": "AiScore — après J35"
+    "source": "AiScore — fin de saison National 2025-2026"
   },
   {
     "rank": 5,
     "player": "Boubacar Fofana",
     "team": "FCSM",
     "position": "ATT",
-    "matches": 20,
+    "matches": 24,
     "goals": 3,
     "assists": 0,
     "penalties": 2,
     "xg": null,
-    "source": "AiScore — après J35"
+    "source": "AiScore — fin de saison National 2025-2026"
   },
   {
     "rank": 6,
     "player": "Solomon Loubao",
     "team": "FCSM",
     "position": "ATT",
-    "matches": 22,
-    "goals": 2,
-    "assists": 1,
+    "matches": 26,
+    "goals": 3,
+    "assists": 2,
     "penalties": 0,
     "xg": null,
-    "source": "AiScore — après J35"
+    "source": "AiScore — fin de saison National 2025-2026"
   },
   {
     "rank": 7,
     "player": "Jonathan Mexique",
     "team": "FCSM",
     "position": "MID",
-    "matches": 28,
+    "matches": 30,
     "goals": 2,
     "assists": 3,
     "penalties": 0,
     "xg": null,
-    "source": "MadeInFOOT — après J35"
+    "source": "MadeInFOOT — fin de saison National 2025-2026"
   },
   {
     "rank": 8,
     "player": "Dylan Tavares dos Santos",
     "team": "FCSM",
     "position": "MID",
-    "matches": 25,
-    "goals": 0,
+    "matches": 32,
+    "goals": 1,
     "assists": 5,
     "penalties": 0,
     "xg": null,
-    "source": "MadeInFOOT — meilleur passeur après J35"
+    "source": "MadeInFOOT — meilleur passeur, fin de saison National 2025-2026"
   },
   {
     "rank": 9,
     "player": "Benjaloud Youssouf",
     "team": "FCSM",
     "position": "MID",
-    "matches": 20,
+    "matches": 28,
     "goals": 1,
     "assists": 3,
     "penalties": 0,
     "xg": null,
-    "source": "MadeInFOOT — après J35"
+    "source": "MadeInFOOT — fin de saison National 2025-2026"
   },
   {
     "rank": 10,
     "player": "Élie N'Gatta",
     "team": "FCSM",
     "position": "MID",
-    "matches": 18,
+    "matches": 26,
     "goals": 1,
     "assists": 3,
     "penalties": 0,
     "xg": null,
-    "source": "Footmercato — après J35"
+    "source": "Footmercato — fin de saison National 2025-2026"
   }
 ]
