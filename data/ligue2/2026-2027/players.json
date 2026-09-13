@@ -1,0 +1,191 @@
+[
+  {
+    "first_name": "Mehdi",
+    "last_name": "Jeannin",
+    "position": "GB",
+    "nationality": "Français",
+    "number": 40,
+    "team": "FCSM",
+    "note": "Gardien titulaire, arrivé 2024 de Troyes. Clean sheet contre Nantes (J6)."
+  },
+  {
+    "first_name": "Saad",
+    "last_name": "Agouzoul",
+    "position": "DEF",
+    "nationality": "Marocain",
+    "number": 97,
+    "team": "FCSM",
+    "note": "Défenseur central, recrue L2. Note 7,82 moyenne L2 (meilleure du club)."
+  },
+  {
+    "first_name": "Mathieu",
+    "last_name": "Peybernes",
+    "position": "DEF",
+    "nationality": "Français",
+    "number": 14,
+    "team": "FCSM",
+    "note": "Capitaine défense, expérience L1/L2 (Bastia, Caen). Meilleur arrière du FCSM L2."
+  },
+  {
+    "first_name": "Élie",
+    "last_name": "N'Gatta",
+    "position": "DEF",
+    "nationality": "Français",
+    "number": 26,
+    "team": "FCSM",
+    "note": "Latéral gauche titulaire. 2 passes décisives en National 2025-2026."
+  },
+  {
+    "first_name": "Benjaloud",
+    "last_name": "Youssouf",
+    "position": "DEF",
+    "nationality": "Français",
+    "number": null,
+    "team": "FCSM",
+    "note": "Latéral droit polyvalent. Convoqué J5 (Pau)."
+  },
+  {
+    "first_name": "Dalangunypole",
+    "last_name": "Gomis",
+    "position": "DEF",
+    "nationality": "Français",
+    "number": 3,
+    "team": "FCSM",
+    "note": "Polyvalent défense/milieu. Régulier en charnière."
+  },
+  {
+    "first_name": "Arthur",
+    "last_name": "Vitelli",
+    "position": "DEF",
+    "nationality": "Français",
+    "number": null,
+    "team": "FCSM",
+    "note": "Note 7,03 moyenne L2 — défenseur régulier."
+  },
+  {
+    "first_name": "Tom",
+    "last_name": "Pouilly",
+    "position": "DEF",
+    "nationality": "Français",
+    "number": 2,
+    "team": "FCSM",
+    "note": "Arrière droit polyvalent, formé au club."
+  },
+  {
+    "first_name": "Jonathan",
+    "last_name": "Mexique",
+    "position": "MIL",
+    "nationality": "Français",
+    "number": 15,
+    "team": "FCSM",
+    "note": "Milieu relayeur. Régulier L2."
+  },
+  {
+    "first_name": "Julien",
+    "last_name": "Masson",
+    "position": "MIL",
+    "nationality": "Français",
+    "number": 23,
+    "team": "FCSM",
+    "note": "Milieu défensif axial. Récupérateur, première relance."
+  },
+  {
+    "first_name": "Victor",
+    "last_name": "Lobry",
+    "position": "MIL",
+    "nationality": "Français",
+    "number": null,
+    "team": "FCSM",
+    "note": "Milieu offensif. Entré en jeu à Red Star (J2)."
+  },
+  {
+    "first_name": "Landry",
+    "last_name": "Nomel",
+    "position": "MIL",
+    "nationality": "Français",
+    "number": 77,
+    "team": "FCSM",
+    "note": "Ailier/milieu offensif. Régulier L2."
+  },
+  {
+    "first_name": "Samy",
+    "last_name": "Baghdadi",
+    "position": "MIL",
+    "nationality": "Français",
+    "number": 5,
+    "team": "FCSM",
+    "note": "Milieu droit, ancien de l'OL. Régulier."
+  },
+  {
+    "first_name": "Dylan",
+    "last_name": "Tavares dos Santos",
+    "position": "MIL",
+    "nationality": "Français",
+    "number": null,
+    "team": "FCSM",
+    "note": "Ailier gauche. 4 passes décisives en National 2025-2026."
+  },
+  {
+    "first_name": "Boubacar",
+    "last_name": "Fofana",
+    "position": "ATT",
+    "nationality": "Français",
+    "number": 10,
+    "team": "FCSM",
+    "note": "Buteur décisif J3 (1-0 vs Guingamp, 14e). Seul buteur L2 du FCSM hors dernière journée."
+  },
+  {
+    "first_name": "Mathias",
+    "last_name": "Clairicia",
+    "position": "ATT",
+    "nationality": "Français",
+    "number": 91,
+    "team": "FCSM",
+    "note": "Recrue L2 (ex-Bochum). A arraché le nul à Pau (J5, but égalisateur à 10 contre 11)."
+  },
+  {
+    "first_name": "Benjamin",
+    "last_name": "Gomel",
+    "position": "ATT",
+    "nationality": "Français",
+    "number": null,
+    "team": "FCSM",
+    "note": "Capitaine, meilleur buteur FCSM en National 2025-2026 (12 buts). Buteur décisif J6 vs Nantes (61e)."
+  },
+  {
+    "first_name": "Kapitbafan",
+    "last_name": "Djoco",
+    "position": "ATT",
+    "nationality": "Français",
+    "number": null,
+    "team": "FCSM",
+    "note": "Avant-centre, 11 buts en National 2025-2026 (2e buteur)."
+  },
+  {
+    "first_name": "Solomon",
+    "last_name": "Loubao",
+    "position": "ATT",
+    "nationality": "Français",
+    "number": null,
+    "team": "FCSM",
+    "note": "Jeune attaquant formé au club. 2 buts en National 2025-2026."
+  },
+  {
+    "first_name": "Elson",
+    "last_name": "Mendes",
+    "position": "ATT",
+    "nationality": "Français",
+    "number": null,
+    "team": "FCSM",
+    "note": "Ailier. 2 buts en National 2025-2026."
+  },
+  {
+    "first_name": "Renaudin",
+    "last_name": "Jordan",
+    "position": "ATT",
+    "nationality": "Français",
+    "number": null,
+    "team": "FCSM",
+    "note": "Buteur pour son retour de blessure — mentionné par L'Est Républicain (01/09/2026)."
+  }
+]

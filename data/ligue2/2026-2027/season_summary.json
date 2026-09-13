@@ -1,0 +1,49 @@
+{
+  "season": "2026-2027",
+  "competition": "Ligue 2 BKT (2e division française)",
+  "fcsm_team": "FC Sochaux-Montbéliard",
+  "previous_season": "Championnat National 2025-2026 — 2e (58 pts), promu en Ligue 2 avec Dijon FCO",
+  "manager": "Vincent Hognon",
+  "stadium": "Stade Auguste-Bonal (Montbéliard, 20 005 places)",
+  "season_start_date": "2026-08-08",
+  "snapshot_date": "2026-09-13",
+  "matchdays_played": 6,
+  "fcsm_current_rank": 6,
+  "fcsm_current_points": 9,
+  "fcsm_record": "2W-3D-1L (GF 3, GA 4, GD -1)",
+  "fcsm_form": "D-N-W-D-W",
+  "key_facts": [
+    "FCSM de retour en Ligue 2 après 3 ans en National (3 ans en National 2023-2024, 2024-2025, 2025-2026).",
+    "Effectif L2 consolidé autour du groupe promotion : Gomel (12 buts National 2025-26), Djoco (11), Boutoutaou (6).",
+    "Recrue majeure : Mathias Clairicia (ex-Bochum), attaquant buteur décisif dès J5 (égalisation à Pau, à 10 contre 11).",
+    "Premier match L2 : défaite 0-3 à domicile contre Saint-Étienne (J1, 08/08/2026) — grosse affiche.",
+    "Premier but L2 de l'histoire 2026-27 : Boubacar Fofana (J3, 14e minute vs Guingamp, victoire 1-0).",
+    "Premier clean sheet L2 : victoire 1-0 à domicile contre Nantes (J6, 12/09/2026), but Benjamin Gomel 61e.",
+    "Classement provisoire : 6e sur 18 avec 9 points en 6 journées, à égalité de points avec Metz/Reims, invaincu en septembre.",
+    "Saint-Etienne leader avec 15 pts (5 victoires en 5 matchs), seul club invaincu en L2 avant J6.",
+    "À noter : Dunkerque-ASSE (J6, 12/09 20h00), score à vérifier — possible upset (à confirmer au prochain commit).",
+    "FCSM J7 : déplacement à Laval (vendredi 18/09/2026), premier match post-trêve internationale."
+  ],
+  "scoring_leaders_fcsm_l2": [
+    { "player": "Boubacar Fofana", "goals": 1, "match": "J3 (1-0 vs Guingamp, 14e)" },
+    { "player": "Mathias Clairicia", "goals": 1, "match": "J5 (1-1 à Pau, égalisation à 10 contre 11)" },
+    { "player": "Benjamin Gomel", "goals": 1, "match": "J6 (1-0 vs Nantes, 61e)" }
+  ],
+  "upcoming_matches": [
+    { "matchday": 7,  "date": "2026-09-18", "opponent": "Laval",         "venue": "extérieur", "stadium": "Stade Francis Le Basser" },
+    { "matchday": 8,  "date": "2026-10-09", "opponent": "Boulogne",      "venue": "domicile",  "stadium": "Stade Auguste-Bonal" },
+    { "matchday": 9,  "date": "2026-10-17", "opponent": "Metz",          "venue": "extérieur", "stadium": "Stade Saint-Symphorien" },
+    { "matchday": 10, "date": "2026-10-23", "opponent": "Annecy",        "venue": "domicile",  "stadium": "Stade Auguste-Bonal" },
+    { "matchday": 11, "date": "2026-10-30", "opponent": "Reims",         "venue": "extérieur", "stadium": "Stade Auguste-Delaune" }
+  ],
+  "season_horizon": "Saison 2026-2027 en cours (34 journées, fin prévue 22/05/2027). Trêve hivernale après J15 (11/12/2026), reprise le 02/01/2027. FCSM vise le maintien, objectif réaliste top 10.",
+  "broadcasting": "Tous les matchs diffusés sur beIN SPORTS jusqu'en 2029.",
+  "format": "18 clubs, 34 journées, matches aller-retour. Top 2 = promotion directe en Ligue 1. Places 3-5 = playoffs d'accession. Places 17-18 = relégation directe en Ligue 3 (National). Place 16 = barrage contre 3e de Ligue 3.",
+  "promotion_relegation_2026_27": {
+    "promoted_from_l1": ["Metz", "Nantes"],
+    "relegated_from_l2_to_l3": ["Bastia", "Amiens"],
+    "promoted_from_national_to_l2": ["Dijon", "Sochaux"],
+    "promoted_to_l1": ["Troyes", "Le Mans"]
+  },
+  "source": "ladepeche.fr + fbref.com + wikipedia 2026-27 Ligue 2 + L'Est Républicain + FCSM officiel, vérifié 2026-09-13 15:45 GMT+2"
+}
