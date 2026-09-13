@@ -1,0 +1,43 @@
+{
+  "season": "2025-2026",
+  "competition": "Championnat National",
+  "matchdays_played": 32,
+  "status": "terminée",
+  "last_update": "2026-05-16",
+  "source": "FFF officiel + Ski-Nordique.net (classement final vérifié)",
+  "note": "AC Ajaccio exclu du championnat (forfait général), 0 match joué, 0 point.",
+  "standings": [
+    { "rank": 1,  "team": "Dijon FCO",          "short": "DIJ", "points": 65, "played": 32, "won": 18, "draw": 11, "lost": 3, "gf": 52, "ga": 25, "gd": 27, "status": "Champion — Promu Ligue 2" },
+    { "rank": 2,  "team": "FC Sochaux-Montbéliard","short": "FCSM", "points": 58, "played": 32, "won": 16, "draw": 10, "lost": 6, "gf": 51, "ga": 26, "gd": 25, "status": "Promu Ligue 2" },
+    { "rank": 3,  "team": "FC Rouen 1899",      "short": "ROU", "points": 55, "played": 32, "won": 14, "draw": 13, "lost": 5, "gf": 43, "ga": 29, "gd": 14, "status": "Barrage montée Ligue 2" },
+    { "rank": 4,  "team": "FC Fleury 91",       "short": "FLE", "points": 54, "played": 32, "won": 15, "draw": 9,  "lost": 8, "gf": 47, "ga": 30, "gd": 17, "status": null },
+    { "rank": 5,  "team": "FC Versailles 78",   "short": "VER", "points": 53, "played": 32, "won": 15, "draw": 8,  "lost": 9, "gf": 46, "ga": 34, "gd": 12, "status": null },
+    { "rank": 6,  "team": "US Orléans",         "short": "ORL", "points": 51, "played": 32, "won": 14, "draw": 9,  "lost": 9, "gf": 42, "ga": 42, "gd": 0,  "status": null },
+    { "rank": 7,  "team": "Le Puy Foot 43",     "short": "PUY", "points": 47, "played": 32, "won": 12, "draw": 11, "lost": 9, "gf": 45, "ga": 38, "gd": 7,  "status": null },
+    { "rank": 8,  "team": "SM Caen",            "short": "CAE", "points": 40, "played": 32, "won": 8,  "draw": 16, "lost": 8, "gf": 39, "ga": 34, "gd": 5,  "status": null },
+    { "rank": 9,  "team": "US Concarneau",      "short": "CON", "points": 38, "played": 32, "won": 8,  "draw": 14, "lost": 10,"gf": 32, "ga": 37, "gd": -5, "status": null },
+    { "rank": 10, "team": "Valenciennes FC",    "short": "VAL", "points": 38, "played": 32, "won": 10, "draw": 8,  "lost": 14,"gf": 35, "ga": 44, "gd": -9, "status": null },
+    { "rank": 11, "team": "SC Aubagne Air Bel",  "short": "AUB", "points": 37, "played": 32, "won": 9,  "draw": 10, "lost": 13,"gf": 38, "ga": 46, "gd": -8, "status": null },
+    { "rank": 12, "team": "Villefranche Beauj",  "short": "VIL", "points": 37, "played": 32, "won": 10, "draw": 7,  "lost": 15,"gf": 34, "ga": 45, "gd": -11,"status": null },
+    { "rank": 13, "team": "QRM (Quevilly)",      "short": "QRM", "points": 33, "played": 32, "won": 8,  "draw": 9,  "lost": 15,"gf": 34, "ga": 45, "gd": -11,"status": null },
+    { "rank": 14, "team": "Gobelins FC",         "short": "GOB", "points": 32, "played": 32, "won": 7,  "draw": 11, "lost": 14,"gf": 26, "ga": 41, "gd": -15,"status": null },
+    { "rank": 15, "team": "FBBP 01",             "short": "FBBP","points": 31, "played": 32, "won": 8,  "draw": 7,  "lost": 17,"gf": 25, "ga": 44, "gd": -19,"status": "Barrage relégation National 2" },
+    { "rank": 16, "team": "LB Châteauroux",      "short": "CHT", "points": 31, "played": 32, "won": 6,  "draw": 13, "lost": 13,"gf": 35, "ga": 49, "gd": -14,"status": "Relégué National 2" },
+    { "rank": 17, "team": "Stade Briochin",      "short": "SBR", "points": 27, "played": 32, "won": 5,  "draw": 12, "lost": 15,"gf": 35, "ga": 50, "gd": -15,"status": "Relégué National 2" },
+    { "rank": 18, "team": "AC Ajaccio",          "short": "AJA", "points": 0,  "played": 0,  "won": 0,  "draw": 0,  "lost": 0, "gf": 0,  "ga": 0,  "gd": 0,  "status": "Forfait général — exclu du championnat" }
+  ],
+  "fcsm_summary": {
+    "rank": 2,
+    "points": 58,
+    "played": 32,
+    "won": 16,
+    "draw": 10,
+    "lost": 6,
+    "goals_for": 51,
+    "goals_against": 26,
+    "goal_difference": 25,
+    "home_record": "9V-6N-1D (28:11, +17)",
+    "away_record": "7V-4N-5D (23:15, +8)",
+    "result": "Promu en Ligue 2 2026-2027"
+  }
+}

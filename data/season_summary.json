@@ -1,0 +1,22 @@
+{
+  "season": "2025-2026",
+  "competition": "Championnat National (3e division française)",
+  "fcsm_team": "FC Sochaux-Montbéliard",
+  "final_rank": 2,
+  "points": 58,
+  "promoted_to": "Ligue 2 2026-2027",
+  "manager": "Vincent Hognon",
+  "stadium": "Stade Auguste-Bonal (Montbéliard, 20 005 places)",
+  "season_end_date": "2026-05-16",
+  "matchday_count": 32,
+  "matches_recorded": 38,
+  "matches_played_by_fcsm": 32,
+  "matches_with_ajaccio_forfeit": "J8 FCSM–Ajaccio (2025-09-26) : AC Ajaccio exclu du championnat pour forfait général, score vide en conséquence.",
+  "trophees_national_2025_2026": {
+    "best_player_nominees": ["Aymen Boutoutaou (FCSM)", "Benjamin Gomel (FCSM)", "Florent Sanchez (Orléans)"],
+    "best_coach_nominees": ["Vincent Hognon (FCSM)", "Stéphane Dief (Le Puy)", "Baptiste Ridira (Dijon)"],
+    "source": "FFF — Trophées 2026 (cérémonie 10 mai 2026, CNF Clairefontaine)"
+  },
+  "next_season_note": "Depuis 2026, le FCSM évolue en Ligue 2 — le Championnat National est remplacé par une Ligue 3 professionnelle.",
+  "last_update": "2026-09-13"
+}
