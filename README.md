@@ -11,7 +11,7 @@ API REST (FastAPI) + CLI (Typer/Rich) + Dashboard web (Chart.js).
 | Saison | Compétition | Statut | Dossier de données |
 |--------|-------------|--------|--------------------|
 | 2025-2026 | Championnat National | ✅ terminée (FCSM promu L2) | `data/national/2025-2026/` |
-| 2026-2027 | Ligue 2 BKT | 🟡 en cours (J8) | `data/ligue2/2026-2027/` |
+| 2026-2027 | Ligue 2 BKT | 🟡 en cours (J9) | `data/ligue2/2026-2027/` |
 
 ---
 

@@ -6,17 +6,18 @@
   "manager": "Vincent Hognon",
   "stadium": "Stade Auguste-Bonal (Montbéliard, 20 005 places)",
   "season_start_date": "2026-08-08",
-  "snapshot_date": "2026-10-16",
-  "matchdays_played": 8,
-  "fcsm_current_rank": 9,
+  "snapshot_date": "2026-10-17",
+  "matchdays_played": 9,
+  "fcsm_current_rank": 10,
   "fcsm_current_points": 11,
-  "fcsm_record": "2W-5D-1L (GF 5, GA 6, GD -1)",
-  "fcsm_form": "D-N-W-D-N-W-N-N",
+  "fcsm_record": "2W-5D-2L (GF 7, GA 9, GD -2)",
+  "fcsm_form": "N-V-N-V-N-N-N-N-D",
   "key_facts": [
+    "J9 (17/10/2026) : Metz 3-2 FCSM au Stade Saint-Symphorien — Metz: Savanier 11' et 77', Abuashvili 29' ; FCSM: Gomel 46', Deedson Louicius 90+1'. 2e défaite de la saison, la 1re depuis début août : la série de 6 matches sans défaite (2V-4N) s'arrête.",
+    "FCSM 10e de Ligue 2 après 9 journées (11 pts, 2V-5N-2D) ; 7 buts marqués / 9 encaissés.",
     "FCSM 9e de Ligue 2 après 8 journées (11 pts), invaincu depuis la J3 (série de 6 matches sans défaite : 2V-4N).",
     "Meilleure défense du haut de tableau : 6 buts encaissés seulement (dont 3 lors de la seule défaite, 0-3 vs Saint-Étienne en J1).",
     "FCSM ne marque que 5 buts en 8 journées (2e attaque la moins prolifique) — manque d'efficacité offensive, 5 nuls dont 4 vierges ou à un but.",
-    "J7 (18/09/2026) : Laval 1-1 FCSM — but Samy Baghdadi (79e), égalisation lavalloise de S. Sanna (83e) au Stade Francis Le Basser.",
     "J8 (09/10/2026) : FCSM 1-1 Boulogne — ouverture du score Benjamin Gomel (8e), égalisation A. Hbouch (75e) au Stade Auguste-Bonal. Landry Nomel élu Homme du match.",
     "Benjamin Gomel meilleur buteur du club en L2 (2 buts : J6 vs Nantes, J8 vs Boulogne).",
     "Saint-Étienne leader (19 pts), invaincu à domicile ; Reims et Red Star à 17 pts.",
@@ -47,13 +48,6 @@
     }
   ],
   "upcoming_matches": [
-    {
-      "matchday": 9,
-      "date": "2026-10-17",
-      "opponent": "Metz",
-      "venue": "extérieur",
-      "stadium": "Stade Saint-Symphorien"
-    },
     {
       "matchday": 10,
       "date": "2026-10-23",
@@ -104,5 +98,5 @@
       "Le Mans"
     ]
   },
-  "source": "FC Sochaux-Montbéliard (site officiel : résultats J7/J8, classement) + footmercato.net (classement Ligue 2 2026/2027) + L'Est Républicain, vérifié 2026-10-16 23:00 GMT+2"
+  "source": "FC Sochaux-Montbéliard (site officiel : classement + feuille de match J9) + Le Républicain Lorrain, Let's Go Metz, beIN Sports, L'Est Républicain, AfricaFootUnited, moselle.tv (compte rendu Metz-FCSM) — vérifié 2026-10-17 23h00 GMT+2"
 }
