@@ -6,30 +6,28 @@
   "manager": "Vincent Hognon",
   "stadium": "Stade Auguste-Bonal (Montbéliard, 20 005 places)",
   "season_start_date": "2026-08-08",
-  "snapshot_date": "2026-10-17",
-  "matchdays_played": 9,
-  "fcsm_current_rank": 10,
+  "snapshot_date": "2026-10-23",
+  "matchdays_played": 10,
+  "fcsm_current_rank": 12,
   "fcsm_current_points": 11,
-  "fcsm_record": "2W-5D-2L (GF 7, GA 9, GD -2)",
-  "fcsm_form": "N-V-N-V-N-N-N-N-D",
+  "fcsm_record": "2W-5D-3L (GF 8, GA 12, GD -4)",
+  "fcsm_form": "V-N-V-N-N-N-N-D-D",
   "key_facts": [
-    "J9 (17/10/2026) : Metz 3-2 FCSM au Stade Saint-Symphorien — Metz: Savanier 11' et 77', Abuashvili 29' ; FCSM: Gomel 46', Deedson Louicius 90+1'. 2e défaite de la saison, la 1re depuis début août : la série de 6 matches sans défaite (2V-4N) s'arrête.",
-    "FCSM 10e de Ligue 2 après 9 journées (11 pts, 2V-5N-2D) ; 7 buts marqués / 9 encaissés.",
-    "FCSM 9e de Ligue 2 après 8 journées (11 pts), invaincu depuis la J3 (série de 6 matches sans défaite : 2V-4N).",
-    "Meilleure défense du haut de tableau : 6 buts encaissés seulement (dont 3 lors de la seule défaite, 0-3 vs Saint-Étienne en J1).",
-    "FCSM ne marque que 5 buts en 8 journées (2e attaque la moins prolifique) — manque d'efficacité offensive, 5 nuls dont 4 vierges ou à un but.",
-    "J8 (09/10/2026) : FCSM 1-1 Boulogne — ouverture du score Benjamin Gomel (8e), égalisation A. Hbouch (75e) au Stade Auguste-Bonal. Landry Nomel élu Homme du match.",
-    "Benjamin Gomel meilleur buteur du club en L2 (2 buts : J6 vs Nantes, J8 vs Boulogne).",
-    "Saint-Étienne leader (19 pts), invaincu à domicile ; Reims et Red Star à 17 pts.",
-    "Prochain match : J9, Metz - FCSM, samedi 17/10/2026 à 14h00 (Stade Saint-Symphorien), arbitre Gaël Angoula.",
+    "J10 (23/10/2026) : FCSM 1-3 Annecy au Stade Auguste-Bonal — Annecy : Moïse Sahi Dion 14' et 47', Rambaud 68' ; FCSM : Honoré Bayanginisa 65'. 3e défaite de la saison, la 2e à domicile ; 3 matches sans victoire.",
+    "Deux blessés avant la pause : Kapti Djoco (22e) puis Arthur Vitelli, sorti sur civière après un choc à la mâchoire (40e, commotion) — six changements utilisés par Hognon.",
+    "FCSM 12e de Ligue 2 après 10 journées (11 pts, 2V-5N-3D) ; 8 buts marqués / 12 encaissés.",
+    "J9 (17/10/2026) : Metz 3-2 FCSM — Metz : Savanier 11' et 77', Abuashvili 29' ; FCSM : Gomel 46', Deedson Louicius 90+1'.",
+    "Benjamin Gomel reste meilleur buteur du club en L2 (3 buts : J6 Nantes, J8 Boulogne, J9 Metz).",
+    "Nancy 2e (19 pts) après sa victoire 1-0 sur Laval ; Saint-Étienne toujours leader (22 pts) ; Pau 5e, Annecy 7e.",
+    "Prochain match : J11, Reims - FCSM, vendredi 30/10/2026, Stade Auguste-Delaune.",
     "Programmation : la J15 (FCSM - Montpellier) est fixée au lundi 14/12/2026 à 20h45 au Stade Bonal.",
-    "Objectif saison : maintien confortable / top 10 ; le club est en avance sur son objectif après 8 journées."
+    "Objectif saison : maintien confortable / top 10 ; le club est légèrement en retard sur son objectif après 10 journées."
   ],
   "scoring_leaders_fcsm_l2": [
     {
       "player": "Benjamin Gomel",
-      "goals": 2,
-      "match": "J6 (1-0 vs Nantes, 61e) ; J8 (1-1 vs Boulogne, 8e)"
+      "goals": 3,
+      "match": "J6 (1-0 vs Nantes, 61e) ; J8 (1-1 vs Boulogne, 8e) ; J9 (3-2 à Metz, 46e)"
     },
     {
       "player": "Boubacar Fofana",
@@ -45,16 +43,19 @@
       "player": "Samy Baghdadi",
       "goals": 1,
       "match": "J7 (1-1 à Laval, 79e)"
+    },
+    {
+      "player": "Deedson Louicius",
+      "goals": 1,
+      "match": "J9 (3-2 à Metz, 90+1)"
+    },
+    {
+      "player": "Honoré Bayanginisa",
+      "goals": 1,
+      "match": "J10 (1-3 vs Annecy, 65e)"
     }
   ],
   "upcoming_matches": [
-    {
-      "matchday": 10,
-      "date": "2026-10-23",
-      "opponent": "Annecy",
-      "venue": "domicile",
-      "stadium": "Stade Auguste-Bonal"
-    },
     {
       "matchday": 11,
       "date": "2026-10-30",
@@ -98,5 +99,5 @@
       "Le Mans"
     ]
   },
-  "source": "FC Sochaux-Montbéliard (site officiel : classement + feuille de match J9) + Le Républicain Lorrain, Let's Go Metz, beIN Sports, L'Est Républicain, AfricaFootUnited, moselle.tv (compte rendu Metz-FCSM) — vérifié 2026-10-17 23h00 GMT+2"
+  "source": "FC Sochaux-Montbéliard (site officiel) + letrois.info / Sports Orange / Le Figaro Sport / L'Est Républicain — vérifié 2026-10-23 23h00 GMT+2"
 }

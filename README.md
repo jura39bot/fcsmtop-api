@@ -11,7 +11,7 @@ API REST (FastAPI) + CLI (Typer/Rich) + Dashboard web (Chart.js).
 | Saison | Compétition | Statut | Dossier de données |
 |--------|-------------|--------|--------------------|
 | 2025-2026 | Championnat National | ✅ terminée (FCSM promu L2) | `data/national/2025-2026/` |
-| 2026-2027 | Ligue 2 BKT | 🟡 en cours (J9) | `data/ligue2/2026-2027/` |
+| 2026-2027 | Ligue 2 BKT | 🟡 en cours (J10) | `data/ligue2/2026-2027/` |
 
 ---
 
@@ -160,8 +160,8 @@ fcsmtop-api/
 │   │   ├── scorers.json     # Top buteurs FCSM + National
 │   │   ├── standings.json   # Classement final 18 clubs (Dijon 1er, FCSM 2e)
 │   │   └── season_summary.json  # Bilan, manager Hognon, trophées, promotion
-│   └── ligue2/2026-2027/    # Saison L2 en cours (J6)
-│       ├── matches.csv      # 34 journées, FCSM J1-J6 joués
+│   └── ligue2/2026-2027/    # Saison L2 en cours (J10)
+│       ├── matches.csv      # 34 journées, FCSM J1-J10 joués
 │       ├── players.json     # Effectif FCSM L2 (recrues : Clairicia)
 │       ├── scorers.json     # Top buteurs L2 + FCSM scorers
 │       ├── standings.json   # Classement après J5 (+ FCSM J6 = 6e/9 pts)
