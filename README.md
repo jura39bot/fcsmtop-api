@@ -11,7 +11,7 @@ API REST (FastAPI) + CLI (Typer/Rich) + Dashboard web (Chart.js).
 | Saison | Compétition | Statut | Dossier de données |
 |--------|-------------|--------|--------------------|
 | 2025-2026 | Championnat National | ✅ terminée (FCSM promu L2) | `data/national/2025-2026/` |
-| 2026-2027 | Ligue 2 BKT | 🟡 en cours (J10) | `data/ligue2/2026-2027/` |
+| 2026-2027 | Ligue 2 BKT | 🟡 en cours (J10, J11 reportée au 02/11) | `data/ligue2/2026-2027/` |
 
 ---
 
@@ -160,11 +160,11 @@ fcsmtop-api/
 │   │   ├── scorers.json     # Top buteurs FCSM + National
 │   │   ├── standings.json   # Classement final 18 clubs (Dijon 1er, FCSM 2e)
 │   │   └── season_summary.json  # Bilan, manager Hognon, trophées, promotion
-│   └── ligue2/2026-2027/    # Saison L2 en cours (J10)
+│   └── ligue2/2026-2027/    # Saison L2 en cours (J10, J11 reportée)
 │       ├── matches.csv      # 34 journées, FCSM J1-J10 joués
 │       ├── players.json     # Effectif FCSM L2 (recrues : Clairicia)
 │       ├── scorers.json     # Top buteurs L2 + FCSM scorers
-│       ├── standings.json   # Classement après J5 (+ FCSM J6 = 6e/9 pts)
+│       ├── standings.json   # Classement après J10 (+ 5 matches de J11)
 │       └── season_summary.json  # Contexte L2, manager, calendrier, format
 ├── docker-compose.yml   # PostgreSQL 16 + API
 ├── Dockerfile
@@ -237,41 +237,55 @@ uvicorn api.main:app --reload
 
 ## 🟡 Saison 2026-2027 — Ligue 2 BKT (en cours)
 
-> **Snapshot au 13/09/2026** — J6 jouée (FCSM 1-0 Nantes, but Gomel 61e).  
-> FCSM **6e (9 pts, 2V-3N-1D)** sur 18 clubs. Leader : Saint-Étienne 15 pts.
+> **Snapshot au 30/10/2026** — J10 complète + 5 matches de J11 joués le 30/10.  
+> FCSM **13e (11 pts, 2V-5N-3D)** sur 18 clubs, 3 matches sans victoire. Leader : Saint-Étienne 25 pts.  
+> ⚠️ **J11 Reims - FCSM reportée au lundi 02/11/2026 à 20h45** (Stade Auguste-Delaune, beIN SPORTS 1), à la demande de la préfecture de la Marne.
 
-### 🏆 Classement (après J5 — derniers résultats complets, FCSM J6 inclus)
+### 🏆 Classement (après J10 + matches du 30/10)
 
 | Pos | Club | Pts | J | V | N | D | Diff |
 |-----|------|-----|---|---|---|---|------|
-| 1 | Saint-Étienne | 15 | 5 | 5 | 0 | 0 | +12 |
-| 2 | Annecy | 10 | 5 | 3 | 1 | 1 | +2 |
-| 3 | Reims | 9 | 5 | 2 | 3 | 0 | +5 |
-| 4 | Metz | 9 | 5 | 2 | 3 | 0 | +4 |
-| 5 | Montpellier | 8 | 5 | 2 | 2 | 1 | 0 |
-| 6 | **Sochaux** | **9** | **6** | **2** | **3** | **1** | **-1** |
-| 7 | Red Star | 8 | 5 | 2 | 2 | 1 | -1 |
-| 18 | Nantes | 1 | 5 | 0 | 1 | 4 | -6 |
+| 1 | AS Saint-Étienne | 25 | 10 | 8 | 1 | 1 | +15 |
+| 2 | Montpellier HSC | 21 | 10 | 6 | 3 | 1 | +7 |
+| 3 | Pau FC | 20 | 11 | 6 | 2 | 3 | +5 |
+| 4 | AS Nancy Lorraine | 19 | 10 | 6 | 1 | 3 | +4 |
+| 5 | Stade de Reims | 18 | 10 | 4 | 6 | 0 | +8 |
+| 6 | Red Star FC | 17 | 10 | 5 | 2 | 3 | +1 |
+| 7 | FC Annecy | 16 | 10 | 5 | 1 | 4 | +2 |
+| 8 | Dijon FCO | 15 | 11 | 4 | 3 | 4 | +1 |
+| 9 | FC Metz | 14 | 11 | 3 | 5 | 3 | 0 |
+| 10 | Rodez Aveyron Football | 13 | 11 | 4 | 1 | 6 | -5 |
+| 11 | USL Dunkerque | 12 | 11 | 3 | 3 | 5 | -3 |
+| 12 | En Avant Guingamp | 11 | 10 | 3 | 2 | 5 | -2 |
+| 13 | **Sochaux** | 11 | 10 | 2 | 5 | 3 | -4 |
+| 14 | US Boulogne CO | 10 | 11 | 1 | 7 | 3 | -1 |
+| 15 | FC Nantes | 9 | 11 | 2 | 3 | 6 | -6 |
+| 16 | Stade Lavallois | 9 | 11 | 2 | 3 | 6 | -7 |
+| 17 | Clermont Foot 63 | 8 | 11 | 0 | 8 | 3 | -5 |
+| 18 | Grenoble Foot 38 | 8 | 11 | 2 | 2 | 7 | -10 |
 
 > Manager : **Vincent Hognon** (continuité après promotion).  
-> Recrue L2 : Mathias Clairicia (ex-Bochum) — buteur décisif dès J5.  
-> Sources : FBref + ladepeche.fr + LFP + L'Est Républicain, vérifié 2026-09-13 15:45 GMT+2.
+> Recrue L2 : Mathias Clairicia (ex-Bochum).  
+> Sources : FC Sochaux officiel + L'Union / L'Est Républicain / footeo / Ouest-France, vérifié 2026-10-30 23h00 GMT+1.
 
 ### ⚽ Buteurs FCSM en L2
 
 | Joueur | Buts | Match |
 |--------|------|-------|
+| Benjamin Gomel | 3 | J6 vs Nantes (61e), J8 vs Boulogne (8e), J9 à Metz (46e) |
 | Boubacar Fofana | 1 | J3 vs Guingamp (1-0, 14e) |
-| Mathias Clairicia | 1 | J5 à Pau (1-1, égalisation à 10 contre 11) |
-| Benjamin Gomel | 1 | J6 vs Nantes (1-0, 61e) |
+| Mathias Clairicia | 1 | J5 à Pau (1-1) |
+| Samy Baghdadi | 1 | J7 à Laval (1-1, 79e) |
+| Deedson Louicius | 1 | J9 à Metz (3-2, 90+1) |
+| Honoré Bayanginisa | 1 | J10 vs Annecy (1-3, 65e) |
 
 ### 📅 Prochains matchs FCSM
 
 | J | Date | Domicile | Extérieur |
 |---|------|----------|-----------|
-| 7 | 18/09/2026 | Laval | FCSM |
-| 8 | 09/10/2026 | FCSM | Boulogne |
-| 9 | 17/10/2026 | Metz | FCSM |
+| 11 | 02/11/2026 | Reims | FCSM |
+| 12 | 06/11/2026 | Nancy | FCSM |
+| 13 | 20/11/2026 | FCSM | Dunkerque |
 
 ➡️ Détail complet : `data/ligue2/2026-2027/`
 
