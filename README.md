@@ -11,7 +11,7 @@ API REST (FastAPI) + CLI (Typer/Rich) + Dashboard web (Chart.js).
 | Saison | Compétition | Statut | Dossier de données |
 |--------|-------------|--------|--------------------|
 | 2025-2026 | Championnat National | ✅ terminée (FCSM promu L2) | `data/national/2025-2026/` |
-| 2026-2027 | Ligue 2 BKT | 🟡 en cours (J10, J11 reportée au 02/11) | `data/ligue2/2026-2027/` |
+| 2026-2027 | Ligue 2 BKT | 🟡 en cours (J12) | `data/ligue2/2026-2027/` |
 
 ---
 
@@ -160,11 +160,11 @@ fcsmtop-api/
 │   │   ├── scorers.json     # Top buteurs FCSM + National
 │   │   ├── standings.json   # Classement final 18 clubs (Dijon 1er, FCSM 2e)
 │   │   └── season_summary.json  # Bilan, manager Hognon, trophées, promotion
-│   └── ligue2/2026-2027/    # Saison L2 en cours (J10, J11 reportée)
-│       ├── matches.csv      # 34 journées, FCSM J1-J10 joués
+│   └── ligue2/2026-2027/    # Saison L2 en cours (J12)
+│       ├── matches.csv      # 34 journées, FCSM J1-J12 joués
 │       ├── players.json     # Effectif FCSM L2 (recrues : Clairicia)
 │       ├── scorers.json     # Top buteurs L2 + FCSM scorers
-│       ├── standings.json   # Classement après J10 (+ 5 matches de J11)
+│       ├── standings.json   # Classement après J11 (+ 6 matches de J12)
 │       └── season_summary.json  # Contexte L2, manager, calendrier, format
 ├── docker-compose.yml   # PostgreSQL 16 + API
 ├── Dockerfile
@@ -237,36 +237,44 @@ uvicorn api.main:app --reload
 
 ## 🟡 Saison 2026-2027 — Ligue 2 BKT (en cours)
 
-> **Snapshot au 30/10/2026** — J10 complète + 5 matches de J11 joués le 30/10.  
-> FCSM **13e (11 pts, 2V-5N-3D)** sur 18 clubs, 3 matches sans victoire. Leader : Saint-Étienne 25 pts.  
-> ⚠️ **J11 Reims - FCSM reportée au lundi 02/11/2026 à 20h45** (Stade Auguste-Delaune, beIN SPORTS 1), à la demande de la préfecture de la Marne.
+> **Snapshot au 06/11/2026** — 11 journées complètes + 6 matches de la J12 joués le 06/11.
+> FCSM **14e (11 pts, 2V-5N-5D)** sur 18 clubs, **4 défaites de suite** et 8 matches sans victoire.
+> Leader : Saint-Étienne 25 pts (11 matches), Nancy co-leader 25 pts, Montpellier 24, Reims 21.
 
-### 🏆 Classement (après J10 + matches du 30/10)
+### 🏆 Classement (après J11 + matches du 06/11)
 
 | Pos | Club | Pts | J | V | N | D | Diff |
 |-----|------|-----|---|---|---|---|------|
-| 1 | AS Saint-Étienne | 25 | 10 | 8 | 1 | 1 | +15 |
-| 2 | Montpellier HSC | 21 | 10 | 6 | 3 | 1 | +7 |
-| 3 | Pau FC | 20 | 11 | 6 | 2 | 3 | +5 |
-| 4 | AS Nancy Lorraine | 19 | 10 | 6 | 1 | 3 | +4 |
-| 5 | Stade de Reims | 18 | 10 | 4 | 6 | 0 | +8 |
-| 6 | Red Star FC | 17 | 10 | 5 | 2 | 3 | +1 |
-| 7 | FC Annecy | 16 | 10 | 5 | 1 | 4 | +2 |
-| 8 | Dijon FCO | 15 | 11 | 4 | 3 | 4 | +1 |
-| 9 | FC Metz | 14 | 11 | 3 | 5 | 3 | 0 |
-| 10 | Rodez Aveyron Football | 13 | 11 | 4 | 1 | 6 | -5 |
-| 11 | USL Dunkerque | 12 | 11 | 3 | 3 | 5 | -3 |
-| 12 | En Avant Guingamp | 11 | 10 | 3 | 2 | 5 | -2 |
-| 13 | **Sochaux** | 11 | 10 | 2 | 5 | 3 | -4 |
-| 14 | US Boulogne CO | 10 | 11 | 1 | 7 | 3 | -1 |
-| 15 | FC Nantes | 9 | 11 | 2 | 3 | 6 | -6 |
-| 16 | Stade Lavallois | 9 | 11 | 2 | 3 | 6 | -7 |
-| 17 | Clermont Foot 63 | 8 | 11 | 0 | 8 | 3 | -5 |
-| 18 | Grenoble Foot 38 | 8 | 11 | 2 | 2 | 7 | -10 |
+| 1 | AS Saint-Étienne | 25 | 11 | 8 | 1 | 2 | +12 |
+| 2 | AS Nancy Lorraine | 25 | 12 | 8 | 1 | 3 | +8 |
+| 3 | Montpellier HSC | 24 | 12 | 7 | 3 | 2 | +9 |
+| 4 | Stade de Reims | 21 | 12 | 5 | 6 | 1 | +9 |
+| 5 | Pau FC | 20 | 11 | 6 | 2 | 3 | +5 |
+| 6 | Dijon FCO | 18 | 12 | 5 | 3 | 4 | +2 |
+| 7 | FC Metz | 17 | 12 | 4 | 5 | 3 | +1 |
+| 8 | Red Star FC | 17 | 12 | 5 | 2 | 5 | -3 |
+| 9 | FC Annecy | 16 | 12 | 5 | 1 | 6 | -4 |
+| 10 | USL Dunkerque | 15 | 12 | 4 | 3 | 5 | 0 |
+| 11 | En Avant Guingamp | 14 | 12 | 4 | 2 | 6 | -2 |
+| 12 | US Boulogne CO | 13 | 12 | 2 | 7 | 3 | +2 |
+| 13 | Rodez Aveyron Football | 13 | 11 | 4 | 1 | 6 | -5 |
+| 14 | **Sochaux** | 11 | 12 | 2 | 5 | 5 | -7 |
+| 15 | Grenoble Foot 38 | 11 | 12 | 3 | 2 | 7 | -9 |
+| 16 | FC Nantes | 9 | 11 | 2 | 3 | 6 | -6 |
+| 17 | Stade Lavallois | 9 | 11 | 2 | 3 | 6 | -7 |
+| 18 | Clermont Foot 63 | 8 | 11 | 0 | 8 | 3 | -5 |
 
-> Manager : **Vincent Hognon** (continuité après promotion).  
-> Recrue L2 : Mathias Clairicia (ex-Bochum).  
-> Sources : FC Sochaux officiel + L'Union / L'Est Républicain / footeo / Ouest-France, vérifié 2026-10-30 23h00 GMT+1.
+> Manager : **Vincent Hognon** (continuité après promotion).
+> Recrue L2 : Mathias Clairicia (ex-Bochum).
+> Trois matches de la J12 restent à jouer (07/11) : Clermont-Rodez, Pau-Nantes, Saint-Étienne-Laval — d'où six clubs à 11 matches.
+> Sources : FC Sochaux officiel (classement après J11) + MadeInFoot / Ouest-France (résultats J12) + L'Alsace / L'Est Républicain (Nancy-Sochaux) + Orange Sports (live Reims-Sochaux), vérifié 2026-11-06 23h00 GMT+1.
+
+### 📊 Derniers résultats FCSM
+
+| J | Date | Match | Score | Buteurs |
+|---|------|-------|-------|---------|
+| 11 | 02/11/2026 | Reims - FCSM | 2-0 | Soumano 5', Y. Fofana 10' |
+| 12 | 06/11/2026 | Nancy - FCSM | 1-0 | Fdaouch 74' (Nancy à 10 dès la 35e) |
 
 ### ⚽ Buteurs FCSM en L2
 
@@ -283,9 +291,9 @@ uvicorn api.main:app --reload
 
 | J | Date | Domicile | Extérieur |
 |---|------|----------|-----------|
-| 11 | 02/11/2026 | Reims | FCSM |
-| 12 | 06/11/2026 | Nancy | FCSM |
 | 13 | 20/11/2026 | FCSM | Dunkerque |
+| 14 | 04/12/2026 | Dijon | FCSM |
+| 15 | 11/12/2026 | FCSM | Montpellier |
 
 ➡️ Détail complet : `data/ligue2/2026-2027/`
 
