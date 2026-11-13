@@ -6,23 +6,25 @@
   "manager": "Vincent Hognon",
   "stadium": "Stade Auguste-Bonal (Montbéliard, 20 005 places)",
   "season_start_date": "2026-08-08",
-  "snapshot_date": "2026-11-06",
-  "matchdays_played": 11,
-  "fcsm_current_rank": 14,
+  "snapshot_date": "2026-11-13",
+  "matchdays_played": 12,
+  "fcsm_current_rank": 16,
   "fcsm_current_points": 11,
   "fcsm_record": "2W-5D-5L (GF 8, GA 15, GD -7)",
   "fcsm_form": "D-N-V-N-N-V-N-N-D-D-D-D",
   "key_facts": [
+    "Le FCSM est 16e de Ligue 2 après 12 journées complètes (11 pts, 2V-5N-5D) : place de barragiste, à égalité avec Grenoble (17e, -9) mais devant à la différence de buts, et 2 points devant Laval (18e, 9 pts).",
+    "J12 (07/11/2026) : les trois derniers matches — Pau 0-2 Nantes, AS Saint-Étienne 2-0 Laval, Clermont 1-0 Rodez. L'ASSE reste leader (28 pts, 9V-1N-2D, 25-11).",
     "J12 (06/11/2026) : Nancy 1-0 FCSM au Stade Marcel-Picot — Fdaouch 74' ; Nancy a joué près d'une heure à 10 (exclusion de Tacafred, 35e) et le FCSM, muet, concède une 4e défaite de suite.",
     "J11 (02/11/2026) : Reims 2-0 FCSM au Stade Auguste-Delaune — Soumano 5', Yaya Fofana 10' ; match reporté du 31/10 à la demande de la préfecture de la Marne. Hognon après le match : « Je suis content d'être 13e ».",
     "Le FCSM est 14e de Ligue 2 après 12 journées (11 pts, 2V-5N-5D), 8 buts marqués / 15 encaissés : 8 matches sans victoire, la dernière remontant au 12/09 (1-0 vs Nantes).",
     "Vincent Hognon après Nancy-Sochaux pointe « l'irresponsabilité » de son équipe et sa lenteur en deuxième période à 11 contre 10.",
     "Nancy (25 pts) revient à hauteur de Saint-Étienne (25 pts, un match de moins) ; Reims (21) chute pour la première fois de la saison à Grenoble (3-2).",
-    "J12 partielle : Dijon 1-0 Red Star, Grenoble 3-2 Reims, Nancy 1-0 Sochaux, Dunkerque 3-0 Guingamp, Montpellier 2-3 Metz, Boulogne 3-0 Annecy ; Clermont-Rodez, Pau-Nantes et Saint-Étienne-Laval se jouent le samedi 07/11.",
     "Benjamin Gomel reste meilleur buteur du club en L2 (3 buts : J6 Nantes, J8 Boulogne, J9 Metz) ; le FCSM n'a plus marqué depuis la 65e minute de J10 (Bayanginisa).",
     "Coupe de France, 7e tour : le FCSM affrontera le CA Boulay (R1).",
     "Programmation : la J15 (FCSM - Montpellier) est fixée au lundi 14/12/2026 à 20h45 au Stade Bonal.",
-    "Objectif saison : maintien confortable / top 10 ; le club est en retard sur son objectif et n'a plus que 4 points d'avance sur la zone de relégation directe (17e : Laval, 9 pts)."
+    "Objectif saison : maintien confortable / top 10 ; le club est en retard sur son objectif et n'a plus que 4 points d'avance sur la zone de relégation directe (17e : Laval, 9 pts).",
+    "Coupe de France, 7e tour : CA Boulay (R1) - FCSM le samedi 14/11/2026 à 14h30, avec 12 absents (sélections + blessures) selon Vincent Hognon."
   ],
   "scoring_leaders_fcsm_l2": [
     {
@@ -101,5 +103,5 @@
       "Le Mans"
     ]
   },
-  "source": "FC Sochaux-Montbéliard (classement officiel après J11) + MadeInFoot / Ouest-France (résultats J12 du 06/11) + L'Alsace / L'Est Républicain (Nancy-Sochaux) + Orange Sports (live Reims-Sochaux) — vérifié 2026-11-06 23h00 GMT+1"
+  "source": "FC Sochaux-Montbéliard (classement officiel à 12 journées + point presse CA Boulay-FCSM du 13/11) + Footmercato (résultats complets J12) — vérifié 2026-11-13 23h10 GMT+1"
 }
