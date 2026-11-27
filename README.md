@@ -11,7 +11,7 @@ API REST (FastAPI) + CLI (Typer/Rich) + Dashboard web (Chart.js).
 | Saison | Compétition | Statut | Dossier de données |
 |--------|-------------|--------|--------------------|
 | 2025-2026 | Championnat National | ✅ terminée (FCSM promu L2) | `data/national/2025-2026/` |
-| 2026-2027 | Ligue 2 BKT | 🟡 en cours (J12 terminée, J13 en cours — FCSM le 23/11) | `data/ligue2/2026-2027/` |
+| 2026-2027 | Ligue 2 BKT | 🟡 en cours (J13 terminée — FCSM 17e, relégable) | `data/ligue2/2026-2027/` |
 
 ---
 
@@ -161,10 +161,10 @@ fcsmtop-api/
 │   │   ├── standings.json   # Classement final 18 clubs (Dijon 1er, FCSM 2e)
 │   │   └── season_summary.json  # Bilan, manager Hognon, trophées, promotion
 │   └── ligue2/2026-2027/    # Saison L2 en cours (J13 en cours)
-│       ├── matches.csv      # 34 journées, FCSM J1-J12 joués
+│       ├── matches.csv      # 34 journées, FCSM J1-J13 joués
 │       ├── players.json     # Effectif FCSM L2 (recrues : Clairicia)
 │       ├── scorers.json     # Top buteurs L2 + FCSM scorers
-│       ├── standings.json   # Classement J13 provisoire (5 matches joués)
+│       ├── standings.json   # Classement J13 complet (18 clubs à 13 matches)
 │       └── season_summary.json  # Contexte L2, manager, calendrier, format
 ├── docker-compose.yml   # PostgreSQL 16 + API
 ├── Dockerfile
@@ -237,39 +237,39 @@ uvicorn api.main:app --reload
 
 ## 🟡 Saison 2026-2027 — Ligue 2 BKT (en cours)
 
-> **Snapshot au 20/11/2026 (23h)** — 12 journées complètes, 13e journée entamée (5 matches joués sur 9).
-> FCSM **16e provisoire (11 pts, 2V-5N-5D)** — **place de barragiste**, 8 matches sans victoire. Le match FCSM - Dunkerque a été décalé au **lundi 23/11/2026 à 20h45** : le club compte un match de moins que les cinq clubs du multiplex.
-> Leader : Saint-Étienne 28 pts (12 matches), Nancy 28 pts (13 matches), Montpellier 24, Reims 21.
+> **Snapshot au 27/11/2026 (23h)** — 13 journées complètes.
+> FCSM **17e (11 pts, 2V-5N-6D)** — **relégable**, 5e défaite consécutive, 9 matches sans victoire. Le club compte le même nombre de points que Clermont (16e) et Grenoble (18e).
+> Leader : Saint-Étienne 31 pts, Nancy 28, Montpellier 24, Reims 21 ; Metz, Pau et Red Star à 20.
 
-### 🏆 Classement (J13 provisoire)
+### 🏆 Classement (J13, complet)
 
 | Pos | Club | Pts | J | V | N | D | Diff |
-|-----|------|-----|---|---|---|---|------|
-| 1 | AS Saint-Étienne | 28 | 12 | 9 | 1 | 2 | +14 |
+|-----|------|---|---|---|---|------|
+| 1 | AS Saint-Étienne | 31 | 13 | 10 | 1 | 2 | +15 |
 | 2 | AS Nancy Lorraine | 28 | 13 | 9 | 1 | 3 | +9 |
-| 3 | Montpellier HSC | 24 | 12 | 7 | 3 | 2 | +9 |
-| 4 | Stade de Reims | 21 | 12 | 5 | 6 | 1 | +9 |
+| 3 | Montpellier HSC | 24 | 13 | 7 | 3 | 3 | +8 |
+| 4 | Stade de Reims | 21 | 13 | 5 | 6 | 2 | +8 |
 | 5 | FC Metz | 20 | 13 | 5 | 5 | 3 | +2 |
 | 6 | Pau FC | 20 | 13 | 6 | 2 | 5 | +2 |
 | 7 | Red Star FC | 20 | 13 | 6 | 2 | 5 | -2 |
 | 8 | FC Annecy | 19 | 13 | 6 | 1 | 6 | -2 |
 | 9 | Dijon FCO | 18 | 13 | 5 | 3 | 5 | +1 |
-| 10 | Rodez Aveyron Football | 16 | 13 | 5 | 1 | 7 | -4 |
-| 11 | USL Dunkerque | 15 | 12 | 4 | 3 | 5 | 0 |
-| 12 | En Avant Guingamp | 14 | 13 | 4 | 2 | 7 | -4 |
-| 13 | US Boulogne CO | 13 | 13 | 2 | 7 | 4 | +1 |
-| 14 | FC Nantes | 12 | 12 | 3 | 3 | 6 | -4 |
-| 15 | Clermont Foot 63 | 11 | 13 | 1 | 8 | 4 | -6 |
-| 16 | **Sochaux** | 11 | 12 | 2 | 5 | 5 | -7 |
-| 17 | Grenoble Foot 38 | 11 | 12 | 3 | 2 | 7 | -9 |
-| 18 | Stade Lavallois | 9 | 12 | 2 | 3 | 7 | -9 |
+| 10 | USL Dunkerque | 18 | 13 | 5 | 3 | 5 | +1 |
+| 11 | Rodez Aveyron Football | 16 | 13 | 5 | 1 | 7 | -4 |
+| 12 | FC Nantes | 15 | 13 | 4 | 3 | 6 | -3 |
+| 13 | En Avant Guingamp | 14 | 13 | 4 | 2 | 7 | -4 |
+| 14 | US Boulogne CO | 13 | 13 | 2 | 7 | 4 | +1 |
+| 15 | Stade Lavallois | 12 | 13 | 3 | 3 | 7 | -8 |
+| 16 | Clermont Foot 63 | 11 | 13 | 1 | 8 | 4 | -6 |
+| 17 | **Sochaux** | 11 | 13 | 2 | 5 | 6 | -8 |
+| 18 | Grenoble Foot 38 | 11 | 13 | 3 | 2 | 8 | -10 |
 
-> Classement **provisoire** : les clubs ont joué 12 ou 13 matches. FCSM 16e, un point devant Grenoble (17e) et deux devant Laval (18e), avec un match de moins que Clermont (15e, 11 pts, -6).
+> Classement **complet** : les 18 clubs ont joué 13 matches. FCSM 17e, donc relégable, à égalité de points avec Clermont (16e, -6) et Grenoble (18e, -10) ; Laval (15e) revient à un point.
 > Manager : **Vincent Hognon** (continuité après promotion).
 > Recrue L2 : Mathias Clairicia (ex-Bochum).
-> J13 (20/11) : Nancy 1-0 Dijon, Annecy 4-2 Clermont, Guingamp 1-3 Rodez, Metz 2-1 Boulogne, Red Star 2-1 Pau (deux pannes d'éclairage à Bauer, but de Despotovic dans les arrêts de jeu).
+> J13 : Nancy 1-0 Dijon, Annecy 4-2 Clermont, Guingamp 1-3 Rodez, Metz 2-1 Boulogne, Red Star 2-1 Pau (vendredi 20/11) ; Reims 0-1 ASSE (Davitashvili) et Laval 1-0 Montpellier (samedi 21/11) ; Nantes 1-0 Grenoble et **FCSM 2-3 Dunkerque** (lundi 23/11).
 > Coupe de France, 7e tour : FCSM qualifié sur le terrain du CA Boulay (R1), 14/11/2026, avec 12 absents.
-> Sources : FC Sochaux officiel (classement équipe première) + sports.fr (multiplex J13) + L'Est Républicain (report du match au lundi 23/11) + Footmercato, vérifié 2026-11-20 23h20 GMT+1.
+> Sources : FC Sochaux officiel (classement équipe première, 13 journées) + footeo.com / Sofoot (FCSM 2-3 Dunkerque, Reims-ASSE, Laval-Montpellier, Nantes-Grenoble) + article stats officiel du 23/11 (buteurs), vérifié 2026-11-27 23h.
 
 ### 📊 Derniers résultats FCSM
 
@@ -277,25 +277,28 @@ uvicorn api.main:app --reload
 |---|------|-------|-------|---------|
 | 11 | 02/11/2026 | Reims - FCSM | 2-0 | Soumano 5', Y. Fofana 10' |
 | 12 | 06/11/2026 | Nancy - FCSM | 1-0 | Fdaouch 74' (Nancy à 10 dès la 35e) |
+| 13 | 23/11/2026 | FCSM - Dunkerque | 2-3 | Deedson 6', Demoncy 85' (sp) // Nadé 40', 56', Ayari 58' |
 
 ### ⚽ Buteurs FCSM en L2
 
 | Joueur | Buts | Match |
 |--------|------|-------|
 | Benjamin Gomel | 3 | J6 vs Nantes (61e), J8 vs Boulogne (8e), J9 à Metz (46e) |
+| Deedson Louicius | 2 | J9 à Metz (3-2, 90+1), J13 vs Dunkerque (2-3, 6e) |
 | Boubacar Fofana | 1 | J3 vs Guingamp (1-0, 14e) |
-| Mathias Clairicia | 1 | J5 à Pau (1-1) |
+| Mathis Clairicia | 1 | J5 à Pau (1-1) |
 | Samy Baghdadi | 1 | J7 à Laval (1-1, 79e) |
-| Deedson Louicius | 1 | J9 à Metz (3-2, 90+1) |
 | Honoré Bayanginisa | 1 | J10 vs Annecy (1-3, 65e) |
+| Yohan Demoncy | 1 | J13 vs Dunkerque (2-3, 85e sur penalty) |
 
 ### 📅 Prochains matchs FCSM
 
 | J | Date | Domicile | Extérieur |
 |---|------|----------|-----------|
-| 13 | 23/11/2026 | FCSM | Dunkerque (lundi 20h45) |
 | 14 | 04/12/2026 | Dijon | FCSM |
-| 15 | 11/12/2026 | FCSM | Montpellier |
+| 15 | 11/12/2026 | FCSM | Montpellier (fixé au lundi 14/12, 20h45) |
+| 16 | 02/01/2027 | Grenoble | FCSM |
+
 
 ➡️ Détail complet : `data/ligue2/2026-2027/`
 

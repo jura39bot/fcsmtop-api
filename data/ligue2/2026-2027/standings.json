@@ -1,10 +1,10 @@
 {
   "season": "2026-2027",
   "competition": "Ligue 2 BKT",
-  "matchdays_played": 12,
-  "matchday_in_progress": 13,
+  "matchdays_played": 13,
+  "matchday_in_progress": null,
   "status": "en cours",
-  "last_update": "2026-11-20",
+  "last_update": "2026-11-27",
   "fcsm_j7_result": "Laval 1-1 FCSM (18/09/2026, Baghdadi 79' ; Sanna 83')",
   "fcsm_j8_result": "FCSM 1-1 Boulogne (09/10/2026, Gomel 8' ; Hbouch 75')",
   "fcsm_j9_played": true,
@@ -13,21 +13,21 @@
   "fcsm_j10_result": "FCSM 1-3 Annecy (23/10/2026, Sahi Dion 14' et 47', Rambaud 68' ; Bayanginisa 65')",
   "fcsm_j11_result": "Reims 2-0 FCSM (02/11/2026, Stade Auguste-Delaune — Soumano 5', Yaya Fofana 10' ; match reporté du 31/10 à la demande de la préfecture de la Marne)",
   "fcsm_j12_result": "Nancy 1-0 FCSM (06/11/2026, Stade Marcel-Picot — Fdaouch 74' ; Nancy réduit à 10 dès la 35e après l'exclusion de Tacafred ; 13 137 spectateurs, arbitre T. Leprodhomme)",
-  "source": "FC Sochaux-Montbéliard (classement officiel équipe première, 12 journées, relevé le 20/11 à 23h) + sports.fr (multiplex J13 du 20/11) + Sud Ouest/Footmercato (Red Star 2-1 Pau) — vérifié 2026-11-20 23h20 GMT+1",
-  "note": "13e journée entamée le vendredi 20/11 : cinq rencontres jouées (Nancy 1-0 Dijon, Annecy 4-2 Clermont, Guingamp 1-3 Rodez, Metz 2-1 Boulogne, Red Star 2-1 Pau après deux pannes d'éclairage à Bauer). Les quatre autres matches, dont FCSM-Dunkerque et Nantes-Grenoble décalés au lundi 23/11 à 20h45, restent à jouer : le classement est donc provisoire et les clubs comptent 12 ou 13 matches. Le site officiel du FCSM affichait encore la J12 au moment du relevé ; les cinq résultats du multiplex ont été appliqués à la main puis le classement re-trie (points, différence de buts, buts marqués). FCSM : 16e provisoire (11 pts, 2V-5N-5D, 8-15, -7), toujours barragiste, un point devant Grenoble (17e) et deux devant Laval (18e), avec un match de moins que Clermont (15e, 11 pts, -6).",
+  "source": "FC Sochaux-Montbéliard (classement officiel équipe première, 13 journées complètes, relevé le 27/11) + footeo.com / Sofoot (Sochaux 2-3 Dunkerque : Deedson 6', Demoncy 85' sp ; Nadé 40', 56', Ayari 58') + footeo.com (ASSE 0-1 à Reims, Laval 1-0 Montpellier) + Sofoot (Nantes 1-0 Grenoble) — vérifié 2026-11-27 23h",
+  "note": "J13 terminée : FCSM 2-3 Dunkerque le lundi 23/11 à Bonal (buts de Deedson à la 6e et Demoncy sur penalty à la 85e ; Dunkerque a renversé le match avec trois buts entre la 40e et la 58e, dont deux en 82 secondes). Les trois autres rencontres du lundi : Nantes 1-0 Grenoble (Perrin 47', Nantes à 10 dès la 57e, penalty de Grenoble arrêté par Carlgren à 90+3). Le samedi 21/11 : Reims 0-1 ASSE (Davitashvili) et Laval 1-0 Montpellier. Le classement officiel du site du club est désormais complet (18 clubs à 13 matches) : FCSM 17e avec 11 pts (2V-5N-6D, 10-18, -8), donc directement relégable, à égalité de points avec Clermont (16e, -6) et Grenoble (18e, -10). Cinquième défaite consécutive et neuvième match sans victoire (la dernière le 12/09, 1-0 vs Nantes).",
   "standings": [
     {
       "rank": 1,
       "team": "AS Saint-Étienne",
       "short": "ASSE",
-      "points": 28,
-      "played": 12,
-      "won": 9,
+      "points": 31,
+      "played": 13,
+      "won": 10,
       "draw": 1,
       "lost": 2,
-      "gf": 25,
+      "gf": 26,
       "ga": 11,
-      "gd": 14,
+      "gd": 15,
       "status": "Relégué L1"
     },
     {
@@ -38,25 +38,24 @@
       "played": 13,
       "won": 9,
       "draw": 1,
-      "lost": 4,
+      "lost": 3,
       "gf": 18,
       "ga": 9,
       "gd": 9,
-      "status": "",
-      "provisional": true
+      "status": ""
     },
     {
       "rank": 3,
       "team": "Montpellier HSC",
       "short": "MHSC",
       "points": 24,
-      "played": 12,
+      "played": 13,
       "won": 7,
       "draw": 3,
-      "lost": 2,
+      "lost": 3,
       "gf": 18,
-      "ga": 9,
-      "gd": 9,
+      "ga": 10,
+      "gd": 8,
       "status": "Relégué L1"
     },
     {
@@ -64,13 +63,13 @@
       "team": "Stade de Reims",
       "short": "REI",
       "points": 21,
-      "played": 12,
+      "played": 13,
       "won": 5,
       "draw": 6,
-      "lost": 1,
+      "lost": 2,
       "gf": 24,
-      "ga": 15,
-      "gd": 9,
+      "ga": 16,
+      "gd": 8,
       "status": "Relégué L1"
     },
     {
@@ -85,8 +84,7 @@
       "gf": 22,
       "ga": 20,
       "gd": 2,
-      "status": "Relégué L1",
-      "provisional": true
+      "status": "Relégué L1"
     },
     {
       "rank": 6,
@@ -100,8 +98,7 @@
       "gf": 17,
       "ga": 15,
       "gd": 2,
-      "status": "",
-      "provisional": true
+      "status": ""
     },
     {
       "rank": 7,
@@ -115,8 +112,7 @@
       "gf": 16,
       "ga": 18,
       "gd": -2,
-      "status": "",
-      "provisional": true
+      "status": ""
     },
     {
       "rank": 8,
@@ -130,8 +126,7 @@
       "gf": 18,
       "ga": 20,
       "gd": -2,
-      "status": "",
-      "provisional": true
+      "status": ""
     },
     {
       "rank": 9,
@@ -145,11 +140,24 @@
       "gf": 21,
       "ga": 20,
       "gd": 1,
-      "status": "Promu National avec le FCSM",
-      "provisional": true
+      "status": "Promu National avec le FCSM"
     },
     {
       "rank": 10,
+      "team": "USL Dunkerque",
+      "short": "USLD",
+      "points": 18,
+      "played": 13,
+      "won": 5,
+      "draw": 3,
+      "lost": 5,
+      "gf": 20,
+      "ga": 19,
+      "gd": 1,
+      "status": ""
+    },
+    {
+      "rank": 11,
       "team": "Rodez Aveyron Football",
       "short": "RAF",
       "points": 16,
@@ -160,25 +168,24 @@
       "gf": 20,
       "ga": 24,
       "gd": -4,
-      "status": "",
-      "provisional": true
-    },
-    {
-      "rank": 11,
-      "team": "USL Dunkerque",
-      "short": "USLD",
-      "points": 15,
-      "played": 12,
-      "won": 4,
-      "draw": 3,
-      "lost": 5,
-      "gf": 17,
-      "ga": 17,
-      "gd": 0,
       "status": ""
     },
     {
       "rank": 12,
+      "team": "FC Nantes",
+      "short": "FCN",
+      "points": 15,
+      "played": 13,
+      "won": 4,
+      "draw": 3,
+      "lost": 6,
+      "gf": 15,
+      "ga": 18,
+      "gd": -3,
+      "status": "Relégué L1"
+    },
+    {
+      "rank": 13,
       "team": "En Avant Guingamp",
       "short": "EAG",
       "points": 14,
@@ -189,11 +196,10 @@
       "gf": 17,
       "ga": 21,
       "gd": -4,
-      "status": "",
-      "provisional": true
+      "status": ""
     },
     {
-      "rank": 13,
+      "rank": 14,
       "team": "US Boulogne CO",
       "short": "USBCO",
       "points": 13,
@@ -204,25 +210,24 @@
       "gf": 11,
       "ga": 10,
       "gd": 1,
-      "status": "Promu National",
-      "provisional": true
-    },
-    {
-      "rank": 14,
-      "team": "FC Nantes",
-      "short": "FCN",
-      "points": 12,
-      "played": 12,
-      "won": 3,
-      "draw": 3,
-      "lost": 6,
-      "gf": 14,
-      "ga": 18,
-      "gd": -4,
-      "status": "Relégué L1"
+      "status": "Promu National"
     },
     {
       "rank": 15,
+      "team": "Stade Lavallois",
+      "short": "LAV",
+      "points": 12,
+      "played": 13,
+      "won": 3,
+      "draw": 3,
+      "lost": 7,
+      "gf": 15,
+      "ga": 23,
+      "gd": -8,
+      "status": ""
+    },
+    {
+      "rank": 16,
       "team": "Clermont Foot 63",
       "short": "CF63",
       "points": 11,
@@ -233,64 +238,50 @@
       "gf": 13,
       "ga": 19,
       "gd": -6,
-      "status": "",
-      "provisional": true
-    },
-    {
-      "rank": 16,
-      "team": "FC Sochaux-Montbéliard",
-      "short": "FCSM",
-      "points": 11,
-      "played": 12,
-      "won": 2,
-      "draw": 5,
-      "lost": 5,
-      "gf": 8,
-      "ga": 15,
-      "gd": -7,
-      "status": "Promu National"
-    },
-    {
-      "rank": 17,
-      "team": "Grenoble Foot 38",
-      "short": "GF38",
-      "points": 11,
-      "played": 12,
-      "won": 3,
-      "draw": 2,
-      "lost": 7,
-      "gf": 13,
-      "ga": 22,
-      "gd": -9,
       "status": ""
     },
     {
-      "rank": 18,
-      "team": "Stade Lavallois",
-      "short": "LAV",
-      "points": 9,
-      "played": 12,
+      "rank": 17,
+      "team": "FC Sochaux-Montbéliard",
+      "short": "FCSM",
+      "points": 11,
+      "played": 13,
       "won": 2,
-      "draw": 3,
-      "lost": 7,
-      "gf": 14,
+      "draw": 5,
+      "lost": 6,
+      "gf": 10,
+      "ga": 18,
+      "gd": -8,
+      "status": "Promu National — relégable"
+    },
+    {
+      "rank": 18,
+      "team": "Grenoble Foot 38",
+      "short": "GF38",
+      "points": 11,
+      "played": 13,
+      "won": 3,
+      "draw": 2,
+      "lost": 8,
+      "gf": 13,
       "ga": 23,
-      "gd": -9,
+      "gd": -10,
       "status": ""
     }
   ],
   "fcsm_summary": {
-    "rank": 16,
+    "rank": 17,
     "points": 11,
-    "played": 12,
+    "played": 13,
     "won": 2,
     "draw": 5,
-    "lost": 5,
-    "goals_for": 8,
-    "goals_against": 15,
-    "goal_difference": -7,
-    "form": "D-N-V-N-N-V-N-N-D-D-D-D",
+    "lost": 6,
+    "goals_for": 10,
+    "goals_against": 18,
+    "goal_difference": -8,
+    "form": "D-N-V-N-N-V-N-N-D-D-D-D-D",
     "last_11": [
+      "D (Dunkerque 2-3)",
       "D (Nancy 1-0)",
       "D (Reims 2-0)",
       "D (Annecy 1-3)",
@@ -300,10 +291,10 @@
       "V (Nantes 1-0)",
       "N (Pau 1-1)",
       "N (Clermont 0-0)",
-      "V (Guingamp 1-0)",
-      "N (Red Star 0-0)"
+      "V (Guingamp 1-0)"
     ],
-    "next_match": "J13 : FCSM - Dunkerque, lundi 23/11/2026 à 20h45, Stade Auguste-Bonal (match décalé du vendredi 20/11)"
+    "next_match": "J14 : Dijon - FCSM, vendredi 04/12/2026, Stade Gaston-Gérard"
   },
-  "fcsm_j13_result": "FCSM - Dunkerque, lundi 23/11/2026 à 20h45 au Stade Auguste-Bonal (non joué)"
+  "fcsm_j13_result": "FCSM 2-3 Dunkerque (23/11/2026, Stade Auguste-Bonal — FCSM: Deedson Louicius 6', Demoncy 85' sur penalty ; Dunkerque: Arthylio Nadé 40' et 56', Khalil Ayari 58')",
+  "fcsm_j13_played": true
 }

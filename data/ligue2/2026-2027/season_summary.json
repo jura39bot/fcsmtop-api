@@ -6,23 +6,22 @@
   "manager": "Vincent Hognon",
   "stadium": "Stade Auguste-Bonal (Montbéliard, 20 005 places)",
   "season_start_date": "2026-08-08",
-  "snapshot_date": "2026-11-20",
-  "matchdays_played": 12,
-  "fcsm_current_rank": 16,
+  "snapshot_date": "2026-11-27",
+  "matchdays_played": 13,
+  "fcsm_current_rank": 17,
   "fcsm_current_points": 11,
-  "fcsm_record": "2W-5D-5L (GF 8, GA 15, GD -7)",
-  "fcsm_form": "D-N-V-N-N-V-N-N-D-D-D-D",
+  "fcsm_record": "2W-5D-6L (GF 10, GA 18, GD -8)",
+  "fcsm_form": "D-N-V-N-N-V-N-N-D-D-D-D-D",
   "key_facts": [
-    "Le FCSM est 16e provisoire de Ligue 2 avant de recevoir Dunkerque : 11 pts (2V-5N-5D), place de barragiste, un point devant Grenoble (17e) et deux devant Laval (18e).",
-    "J13 : FCSM - Dunkerque a été décalé du vendredi 20/11 au lundi 23/11/2026 à 20h45 au Stade Auguste-Bonal. Le FCSM compte donc un match de moins que les cinq clubs du multiplex.",
-    "J13 (20/11/2026) : Nancy 1-0 Dijon, Annecy 4-2 Clermont, Guingamp 1-3 Rodez, Metz 2-1 Boulogne, Red Star 2-1 Pau (après deux pannes d'éclairage au stade Bauer).",
-    "Nancy revient à hauteur de Saint-Étienne (28 pts chacun, mais Nancy a joué 13 matches contre 12) ; Metz (20 pts) et Red Star (20 pts) recollent au peloton de tête.",
-    "Le classement est provisoire : les clubs ont joué 12 ou 13 rencontres, et le site officiel du FCSM affichait encore la J12 au moment du relevé (23h).",
-    "Benjamin Gomel reste meilleur buteur du club en L2 (3 buts : J6 Nantes, J8 Boulogne, J9 Metz) ; le FCSM n'a plus marqué depuis la 65e minute de J10 (Bayanginisa), soit trois matches de suite sans but.",
-    "Vincent Hognon après l'élimination ric-rac en Coupe de France : « Il faut malheureusement se contenter de cette qualification ».",
-    "Coupe de France, 7e tour : le FCSM s'est qualifié sur la pelouse du CA Boulay (R1) le 14/11/2026, avec 12 absents (sélections + blessures) ; le tirage du 8e tour est connu depuis le 17/11.",
+    "Le FCSM est 17e de Ligue 2 après 13 journées : 11 pts (2V-5N-6D, 10-18), directement relégable, à égalité avec Clermont (16e, -6) et Grenoble (18e, -10).",
+    "J13 (23/11/2026) : FCSM 2-3 Dunkerque à Bonal. Deedson Louicius ouvre le score à la 6e, puis Dunkerque renverse tout avec Nadé (40e, 56e) et Ayari (58e) — trois buts en dix-huit minutes, dont deux en 82 secondes. Demoncy réduit sur penalty à la 85e, le premier penalty converti par le club cette saison.",
+    "Cinquième défaite consécutive et neuvième match sans victoire en championnat : la dernière victoire reste le 1-0 contre Nantes le 12/09/2026 (J6).",
+    "Autres résultats de la J13 : ASSE 0-1 à Reims (Davitashvili) le 21/11, Laval 1-0 Montpellier, Nantes 1-0 Grenoble (Perrin 47', Nantes à 10 dès la 57e, penalty grenoblois arrêté par Carlgren à 90+3).",
+    "Classement : Saint-Étienne 31 pts, Nancy 28, Montpellier 24, Reims 21 ; Metz, Pau et Red Star à 20. Laval (12 pts) revient à un point du FCSM.",
+    "Benjamin Gomel reste meilleur buteur du club (3 buts) ; Deedson Louicius en est à 2, Demoncy a ouvert son compteur sur penalty.",
+    "Coupe de France, 7e tour : qualification acquise sur la pelouse du CA Boulay (R1) le 14/11/2026 avec 12 absents ; 8e tour tiré le 17/11.",
     "Programmation : la J15 (FCSM - Montpellier) est fixée au lundi 14/12/2026 à 20h45 au Stade Bonal.",
-    "Objectif saison : maintien confortable / top 10 ; le club est en retard sur son objectif et reste sur 8 matches sans victoire (la dernière le 12/09, 1-0 vs Nantes)."
+    "Objectif saison : maintien ; le club est désormais dans la zone de relégation et doit réagir dès la J14 à Dijon le 04/12."
   ],
   "scoring_leaders_fcsm_l2": [
     {
@@ -31,12 +30,17 @@
       "match": "J6 (1-0 vs Nantes, 61e) ; J8 (1-1 vs Boulogne, 8e) ; J9 (3-2 à Metz, 46e)"
     },
     {
+      "player": "Deedson Louicius",
+      "goals": 2,
+      "match": "J9 (3-2 à Metz, 90+1) ; J13 (2-3 vs Dunkerque, 6e)"
+    },
+    {
       "player": "Boubacar Fofana",
       "goals": 1,
       "match": "J3 (1-0 vs Guingamp, 14e)"
     },
     {
-      "player": "Mathias Clairicia",
+      "player": "Mathis Clairicia",
       "goals": 1,
       "match": "J5 (1-1 à Pau)"
     },
@@ -46,25 +50,17 @@
       "match": "J7 (1-1 à Laval, 79e)"
     },
     {
-      "player": "Deedson Louicius",
-      "goals": 1,
-      "match": "J9 (3-2 à Metz, 90+1)"
-    },
-    {
       "player": "Honoré Bayanginisa",
       "goals": 1,
       "match": "J10 (1-3 vs Annecy, 65e)"
+    },
+    {
+      "player": "Yohan Demoncy",
+      "goals": 1,
+      "match": "J13 (2-3 vs Dunkerque, 85e sur penalty)"
     }
   ],
   "upcoming_matches": [
-    {
-      "matchday": 13,
-      "date": "2026-11-23",
-      "opponent": "Dunkerque",
-      "venue": "domicile",
-      "stadium": "Stade Auguste-Bonal",
-      "note": "Décalé du vendredi 20/11 au lundi 23/11, 20h45"
-    },
     {
       "matchday": 14,
       "date": "2026-12-04",
@@ -79,6 +75,13 @@
       "venue": "domicile",
       "stadium": "Stade Auguste-Bonal",
       "note": "Fixé au lundi 14/12/2026 à 20h45"
+    },
+    {
+      "matchday": 16,
+      "date": "2027-01-02",
+      "opponent": "Grenoble",
+      "venue": "extérieur",
+      "stadium": "Stade des Alpes"
     }
   ],
   "season_horizon": "Saison 2026-2027 en cours (34 journées, fin prévue 22/05/2027). Trêve hivernale après J15 (11/12/2026), reprise le 02/01/2027. FCSM vise le maintien, objectif réaliste top 10.",
@@ -102,5 +105,5 @@
       "Le Mans"
     ]
   },
-  "source": "FC Sochaux-Montbéliard (classement officiel à 12 journées, relevé le 20/11 à 23h) + sports.fr / Ouest-France (multiplex J13 du 20/11) + L'Est Républicain (FCSM-Dunkerque décalé au lundi 23/11) + Footmercato — vérifié 2026-11-20 23h20 GMT+1"
+  "source": "FC Sochaux-Montbéliard (classement officiel, 13 journées complètes, relevé le 27/11/2026) + Sofoot / footeo.com (FCSM 2-3 Dunkerque, Nantes 1-0 Grenoble, Reims 0-1 ASSE, Laval 1-0 Montpellier) + article stats officiel du 23/11 (buteurs et passeurs) — vérifié 2026-11-27 23h"
 }
